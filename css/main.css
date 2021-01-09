@@ -15,6 +15,7 @@ header,
 footer {
     background-color: cornflowerblue;
     color: cornsilk;
+    box-shadow: 0 6px 20px 0 rgba(0,0,0,0.2), 0 6px 20px 0;
     text-decoration: rgb(248, 14, 248);
     text-align: center;
     padding: 1.5rem;
