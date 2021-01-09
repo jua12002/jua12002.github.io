@@ -1,0 +1,27 @@
+body {
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+header,
+nav,
+main,
+footer {
+    margin: 1.2rem auto;
+    max-width: 760px;
+}
+
+header,
+footer {
+    background-color: cornflowerblue;
+    color: cornsilk;
+    text-decoration: rgb(248, 14, 248);
+    text-align: center;
+    padding: 1.5rem;
+}
+
+img {
+    float: right;
+    margin: 10px;
+    border: 1px solid #000;
+}
