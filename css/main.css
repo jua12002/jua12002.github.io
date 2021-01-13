@@ -14,23 +14,13 @@ body {
 header,
 nav,
 main,
-/*h1 {
-    font-family: 'Fraunces', serif;
-}*/
 
 footer {
     margin: 1.2rem auto;
     max-width: 700px;
-    font-family: 'Fraunces', serif;
-    background-color: cornflowerblue;
-    border-radius: 15px;
-    color: rgba(249, 249, 252, 0.925);
-    text-decoration: rgb(2, 2, 83);
-    text-align: center;
-    padding: 1.5rem;
-    box-shadow: 0 6px 20px 0 rgba(0,0,0,0.2), 0 6px 20px 0;
 }
 
+footer,
 header {
     font-family: 'Tangerine', serif;
     font-size: 20px;
