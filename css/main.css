@@ -4,6 +4,8 @@ img {
     float: right;
     margin: 1px;
     border: 3px solid #000;
+    max-width: 100%;
+    display: block;
 }
 
 body {
