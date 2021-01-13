@@ -7,11 +7,8 @@ img {
 }
 
 body {
-    /*font-size: 18px;
-    line-height: 1.5;*/
-    font-family: 'Tangerine', serif;
-    font-size: 20px;
-    text-shadow: 4px 4px 4px #aaa;
+    font-size: 18px;
+    line-height: 1.5;
 }
 
 header,
@@ -24,10 +21,20 @@ main,
 footer {
     margin: 1.2rem auto;
     max-width: 700px;
+    font-family: 'Fraunces', serif;
+    background-color: cornflowerblue;
+    border-radius: 15px;
+    color: rgba(249, 249, 252, 0.925);
+    text-decoration: rgb(2, 2, 83);
+    text-align: center;
+    padding: 1.5rem;
+    box-shadow: 0 6px 20px 0 rgba(0,0,0,0.2), 0 6px 20px 0;
 }
 
-header,
-footer {
+header {
+    font-family: 'Tangerine', serif;
+    font-size: 20px;
+    text-shadow: 4px 4px 4px #aaa;
     background-color: cornflowerblue;
     border-radius: 15px;
     color: rgba(249, 249, 252, 0.925);
