@@ -7,16 +7,19 @@ img {
 }
 
 body {
-    font-size: 18px;
-    line-height: 1.5;
+    /*font-size: 18px;
+    line-height: 1.5;*/
+    font-family: 'Tangerine', serif;
+    font-size: 48px;
+    text-shadow: 4px 4px 4px #aaa;
 }
 
 header,
 nav,
 main,
-h1 {
+/*h1 {
     font-family: 'Fraunces', serif;
-}
+}*/
 
 footer {
     margin: 1.2rem auto;
