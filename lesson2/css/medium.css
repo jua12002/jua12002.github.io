@@ -1,6 +1,5 @@
 @media only screen and (min-width: 560px) {
 
-    nav li {float: left; width: 25%;}
 
     main figure {
         float: right;
@@ -9,7 +8,7 @@
         padding-bottom: .5rem;
     }
 
-    div.news {
+    div.pics {
         clear: both;
         column-count: 2;
         column-rule: 1px solid #ddd;

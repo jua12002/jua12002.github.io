@@ -4,64 +4,88 @@
 
     /* body rules here */
     body {
-        font-family: Verdana;
+        font-family: 'Lucida Sans';
         font-size: 16px;
     }
 
     /* header rules here */
+    /*header {
+        background-color: #4bbedb;
+
+        padding: 1rem 2%;
+        text-align: center;
+    }*/
+
     header {
-        background-color: #dbc14b;
-        padding: 1rem 2%;
-    }
-
-    header h1 {
-            margin: 0;
-    }
-
-    header h2 {
-            margin: 0;
-    }
-
-    /* navigation rules here */
-    nav {background-color: #111;}
-    nav ul {margin: 0; padding: 0;}
-    nav li {list-style-type: none;}
-    nav li.active {background-color: #333;}
-
-    nav a {
-        display: block;
-        padding: .8rem 0; /* 44 min height */
-        color: #eee;
+        font-family: 'Tangerine', serif;
+        font-size: 25px;
+        color: rgba(7, 7, 250, 0.925);
         text-align: center;
-        text-decoration: none;
-    }
-    nav a:hover {background-color: rgb(247, 139, 17);}
+        padding: 1.5rem;
+        }
 
-    /*main rules here */
+   
+
+    /*phone/bases views here */
     main {
-        padding: 1rem 2%;
-        display: block;
-    }
+        max-width: 767px;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr;
+        font-size: 0.8rem;
+        }
 
-    main h1 {color: #ee8206;}
-
-    main figure img {width: 100%;}
-    main figure{
-        width: 100%;
-        margin: 0;
-    }
-    main figcaption {text-align: center; font-size: 
-        .8rem;}
-
-    footer {
-        text-align: center;
-        padding: 1rem 2%;
-        background-color:#dbc14b;
+    main section h2 {
+        color:  rgba(7, 7, 250, 0.925);
     }    
 
-    .clearfix::after{
-        content: "";
-        display: table;
-        clear: both;
+    main section {
+        margin: 0.5rem;
+        border: 1px solid #bbb;
+        padding: 0 1rem;
+        background-color: #eee;
     }
 
+    main section:nth-child(2) {
+        display: none;
+        margin: 0.5rem;
+    }
+
+    .colimage {
+        box-shadow: 0 0 30px #333;
+    }
+
+    /* Tablet Views */
+@media only screen and (min-width: 37.5em) {
+	main {
+		grid-template-columns: 1fr 1fr;
+	}
+
+	main section:nth-child(2) {
+		display: block;
+	}
+
+	main section:nth-child(3) {
+		grid-column: span 2;
+	}
+
+	main section picture {
+		display: block;
+	}
+	main section picture img {
+		width: 100%;
+		height: auto;
+		border: 1px solid #bbb;
+	}
+}
+
+/* Desktop Views ****************************/
+@media only screen and (min-width: 60em) {
+	main {
+		grid-template-columns: 1fr 1fr 1fr;
+	}
+
+	main section:nth-child(3) {
+		grid-column: span 1;
+	}
+}
