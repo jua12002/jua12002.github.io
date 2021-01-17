@@ -9,19 +9,13 @@
     }
 
     /* header rules here */
-    /*header {
-        background-color: #4bbedb;
-
-        padding: 1rem 2%;
-        text-align: center;
-    }*/
-
+    
     header {
         font-family: 'Tangerine', serif;
         font-size: 25px;
         color: rgba(7, 7, 250, 0.925);
         text-align: center;
-        padding: 1.5rem;
+        padding: 1.5rem 2%;
         }
 
    
