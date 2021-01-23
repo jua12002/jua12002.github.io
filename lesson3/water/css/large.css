@@ -1,17 +1,27 @@
-@media only screen and (min-width: 1028px) {
+/* 64em is also 1028px (if basefont is 16px) */
+@media only screen and (min-width: 64rem) {
 
+    header, nav, main, footer {
+        max-width: 64rem;
+        margin:auto;
+    }
 
-    nav ul {padding-left: 2%;}
-    nav li {width: auto;}
-    nav a {padding: .5rem 1rem;}
-
-    main figure {width: 31%;}
-
-    div.pics {column-count: 3;}
-
-
+/*----------- BODY --------------*/
 
 
 
+/*----------- HEADER --------------*/
 
-}
+
+
+/*----------- NAVIGATION --------------*/
+
+
+
+/*----------- MAIN --------------*/
+
+
+
+/*----------- FOOTER --------------*/
+    
+} /* end of media query */

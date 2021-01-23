@@ -1,89 +1,73 @@
-* {-moz-box-sizing: border-box;
-    -webkit-box-sizing: border-box; box-sizing:
-    border-box; }
+/* Prevent adjustments of font size after orientation changes in IE on Windows Phone and in iOS.  */
+html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
 
-    /* body rules  */
-    body {
-        font-size: 25px;
-        font-family: Verdana, sans-serif;
-    }
-  
+/*----------- apply a natural box layout model to all elements --------------*/
+* { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
 
-    /* header rules here*/ 
-    header .logo {
-    float: left;
-    margin-right: 50px;
-    padding: 5px;
+
+/*----------- BODY --------------*/
+body {
+    font-size: 16px;
+    font-family: Verdana, sans-serif;
 }
-    
-    header {
-        font-family: 'Ultra', serif; 
-        background-color:#246E91;
-        padding: 1rem 2%;
-    }
-
-    
-    header h1 {
-        font-family: Verdana;
-        margin: 40px;
-    }
-
-    header h2 {
-        font-family: 'Roman', cursive;
-        margin: 20px;
-    }
-
-    header h3 {
-        font-family: 'Roman';
-        margin: 20px;
-    }
 
 
-    /* navigation rules here */
-    nav {background-color: #5ba846;}
-    nav ul {margin: 0; padding: 0;}
-    nav li {list-style-type: none;}
-    nav li.active {background-color: #034C8C;}
+/*----------- HEADER --------------*/
+header {
+    padding: .5rem 2%;
+    background-color: #ddd;
+}
 
-    nav a {
-        display: block;
-        padding: .8rem 0; 
-        color: #034C8C;
-        text-align: center;
-        text-decoration: none;
-    }
-    nav a:hover {background-color:#96C6D9;}
+header h1 {margin: 0;}
+header h2 {margin: 0; font-weight: normal;}
 
-    /*main rules here */
-    main {
-        padding: 1rem 2%;
-        display: block;
-    }
+/*----------- NAVIGATION --------------*/
+nav {
+    background-color: #666;
+}
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
 
-    main h1 {color: #034C8C;}
+nav ul li a {
+    display: block;
+    color: #eee;
+    padding: .5rem 0;
+    text-decoration: none;
+    font-size: .9rem;
+    text-align: center;
+}
 
-    main figure img {width: 100%;}
-    main figure{
-        width: 100%;
-        margin: 0;
-    }
-    main figcaption {text-align: center; font-size: 
-        .8rem;}
 
-    footer {
-        text-align: center;
-        padding: 1rem 2%;
-        background-color:#429fca;
-    }    
+nav ul li a:hover {
+    background-color: #aaa;
+    color: #333;
+}
+nav ul li.active a {
+    background-color: #000;
+    color: #fff;
+}
+/*----------- MAIN --------------*/
+main {
+    padding: 0 2%;
+    min-height: 10rem;
+}
 
-    .clearfix::after{
-        content: "";
-        display: table;
-        clear: both;
-    }
 
-    .logo {
-        width: 210px;
-        border: 4px solid #10245c;
-        position: relative;
-    }
+/*----------- FOOTER --------------*/
+footer {
+    background-color: #ddd;
+    padding: .5rem 2%;
+    text-align: center;
+}
+
+
+
+/*----- Clearfix: Force an Element not to collapse -----*/
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
