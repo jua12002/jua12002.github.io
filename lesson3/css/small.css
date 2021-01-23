@@ -27,17 +27,17 @@
     
     header h1 {
         font-family: Verdana;
-        margin: 10;
+        margin: 30px;
     }
 
     header h2 {
         font-family: 'Staatliches', cursive;
-        margin: 10;
+        margin: 20px;
     }
 
     header h3 {
         font-family: 'Shadows Into Light', cursive;
-        margin: 10;
+        margin: 20px;
     }
 
 
