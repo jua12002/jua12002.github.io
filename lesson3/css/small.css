@@ -2,11 +2,12 @@
     -webkit-box-sizing: border-box; box-sizing:
     border-box; }
 
-    /* body rules here */
+    /* body rules  */
     body {
-        font-family: Verdana;
+        font-family: 'Yusei Magic', sans-serif;
         font-size: 20px;
     }
+
 
     /* header rules here*/ 
     header .logo {
@@ -17,20 +18,28 @@
     padding: 5px;
 }
     
-
     header {
+        font-family: 'Ultra', serif; 
         background-color: #9ABECF;
         padding: 1rem 2%;
     }
 
-        
+    
     header h1 {
-            margin: 0;
+        font-family: Verdana;
+        margin: 10;
     }
 
     header h2 {
-            margin: 0;
+        font-family: 'Staatliches', cursive;
+        margin: 10;
     }
+
+    header h3 {
+        font-family: 'Shadows Into Light', cursive;
+        margin: 10;
+    }
+
 
     /* navigation rules here */
     nav {background-color: #3960A1;}
