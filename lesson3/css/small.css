@@ -11,11 +11,15 @@
 
     /* header rules here*/ 
     header .logo {
-    width: 250px;
-    float: left;
+    /*width: 250px;
+    float: left;*/
     background-color: white;
     margin-right: 50px;
     padding: 5px;
+
+    float: left; 
+    margin-right: 10px; width: 50px;
+    
 }
     
     header {
