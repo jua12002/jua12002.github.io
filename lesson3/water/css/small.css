@@ -25,28 +25,25 @@ header h2 {margin: 0; font-weight: normal; font-size: 1rem;}
 nav {background-color: rgb(8, 163, 47);}
 nav ul {margin: 0;  padding: 0;}
 nav li {list-style-type: none;}
-nav li.active {background-color: grey;}
+nav li.active {background-color:grey;}
 
 nav a {
     display: block;
-    padding: .5rem 0;
-    color: rgb(94, 188, 243);
+    padding: .8rem 0;
+    color: rgb(14, 26, 32);
     text-align: center;
     text-decoration: none;
 }
     
-nav a:hover {
-    background-color: rgb(49, 186, 240);
-    color: #333;
+nav a:hover {background-color: rgb(49, 186, 240);
 }
-nav ul li.active a {
-    background-color: rgb(6, 2, 66);
-    color: rgb(65, 156, 241);
-}
+
 /*----------- MAIN --------------*/
 main {
     padding: 0 2%;
     min-height: 10rem;
+    
+    display: block;
 }
 
 
