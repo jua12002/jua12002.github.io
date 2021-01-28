@@ -22,16 +22,10 @@ header h1 {margin: 0; font-size: 1.3rem;}
 header h2 {margin: 0; font-weight: normal; font-size: 1rem;}
 
 /*----------- NAVIGATION --------------*/
-nav {
-    background-color: rgb(8, 163, 47);
-}
-nav ul {
-    list-style-type: none;
-    padding: 0;
-    margin: 0;
-}
-
-nav ul li a {
+nav {background-color: rgb(8, 163, 47);}
+nav ul {margin: 0;  padding: 0;}
+nav li.active {list-style-type: none;}
+nav a {
     display: block;
     color: rgb(94, 188, 243);
     padding: .5rem 0;
@@ -40,8 +34,7 @@ nav ul li a {
     text-align: center;
 }
 
-
-nav ul li a:hover {
+nav a:hover {
     background-color: rgb(49, 186, 240);
     color: #333;
 }
