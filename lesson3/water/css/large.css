@@ -2,11 +2,7 @@
 @media only screen and (min-width: 1028px) {
 
    
-    header, nav, main, footer {
-        max-width: 64rem;
-        margin:auto;
-    }
-
+    
 /*----------- BODY --------------*/
 
 
@@ -25,6 +21,11 @@ nav a {padding: .5rem 1rem;}
 
 
 
-/*----------- FOOTER --------------*/
+/*----------- FOOTER --------------
+header, nav, main, footer {
+        max-width: 64rem;
+        margin:auto;
+    }
+*/
     
 } /* end of media query */
