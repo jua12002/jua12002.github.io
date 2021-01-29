@@ -9,11 +9,11 @@ nav button {
     background-color: transparent;
     border: none;
     font-size: 1.6rem;
-    color: #555;
+    color: #fff;
 }
 
 nav {
-    background-color: #ccc;
+    background-color: #aa0000;
     font-family: Verdana, sans-serif;
 }
 
@@ -35,6 +35,8 @@ nav ul li a {
 nav ul li.active a{background-color: rgba(0,0,0,0.2); color: #fff;}
 
 nav ul li a:hover {background-color: rgba(0,0,0,0.4);}
+
+nav ul.hide {display: none;}
 
 .clearfix::after{
     content: "";
