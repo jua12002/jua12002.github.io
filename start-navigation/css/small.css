@@ -38,7 +38,7 @@ nav ul li a:hover {background-color: rgba(0,0,0,0.4);}
 
 nav ul.hide {display: none;}
 
-.clearfix::after{
+.clearfix:after{
     content: "";
     display: table;
     clear: both;
