@@ -4,14 +4,7 @@ html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
 /*----------- apply a natural box layout model to all elements --------------*/
 * { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
 
-header img {
-    width: 140px;
-    float: left;
-    margin-right: 2rem;
-    margin-left: 2rem;
-    /*border: 2px solid #058b22;
-    border-radius: 1em;*/
-}
+
 
 nav button {
     margin: .2rem 2%;
@@ -20,14 +13,7 @@ nav button {
     font-size: 1.6rem;
     color: #fff;
 }
-.contentbox { 
-    display: block;
-    margin: 10px auto;
-    border: 1px dashed grey;
-    padding: 15px;
-    background-color: rgb(233, 248, 211);
-    color: green
-}
+
 
 nav {
     background-color: #058b22;
@@ -54,6 +40,26 @@ nav ul li.active a{background-color: rgba(0,0,0,0.2); color: #fff;}
 nav ul li a:hover {background-color: rgba(0,0,0,0.4);}
 
 nav ul.hide {display: none;}
+
+header img {
+    width: 140px;
+    float: left;
+    margin-right: 2rem;
+    margin-left: 2rem;
+    /*border: 2px solid #058b22;
+    border-radius: 1em;*/
+}
+
+
+.contentbox { 
+    display: block;
+    margin: 10px auto;
+    border: 1px dashed grey;
+    padding: 15px;
+    background-color: rgb(233, 248, 211);
+    color: green
+}
+
 
 .clearfix:after{
     content: "";
