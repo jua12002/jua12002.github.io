@@ -4,12 +4,13 @@ html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
 /*----------- apply a natural box layout model to all elements --------------*/
 * { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
 
-header .logo {
-    width: 200px;
+header img {
+    width: 140px;
     float: left;
-    color: #fff;
-    padding: 5px;
-    margin-right: 50px;
+    margin-right: 2rem;
+    margin-left: 2rem;
+    /*border: 2px solid #058b22;
+    border-radius: 1em;*/
 }
 
 nav button {
@@ -19,10 +20,18 @@ nav button {
     font-size: 1.6rem;
     color: #fff;
 }
+.contentbox { 
+    display: block;
+    margin: 10px auto;
+    border: 1px dashed grey;
+    padding: 15px;
+    background-color: rgb(233, 248, 211);
+    color: green
+}
 
 nav {
     background-color: #058b22;
-    font-family: Verdana, sans-serif;
+    font-family: Yusei Magic, Verdana;
 }
 
 nav ul {
