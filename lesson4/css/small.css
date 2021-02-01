@@ -40,6 +40,13 @@ header img {
     font-size: 1.6rem;
     margin: 0 0 0 17px;
     color: #058b22;
+    font-family: 'Lobster Two', cursive;
+}
+
+
+h2 {
+    color: #455a6e;
+    font-family: 'Gorditas', cursive;
 }
 
 .m  {
@@ -53,7 +60,8 @@ header img {
 
 nav {
     background-color: #058b22;
-    font-family: Verdana, 'Franklin Gothic Medium';
+    font-family: 'Hachi Maru Pop', cursive;
+    
 }
 
 nav ul {
