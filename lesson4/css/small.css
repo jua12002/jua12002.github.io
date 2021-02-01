@@ -5,11 +5,18 @@ html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
 * { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
 
 nav button {
-    margin: .2rem 2%;
-    background-color: transparent;
+    
+    background-color: white;
     border: none;
     font-size: 1.6rem;
-    color: #fff;
+    color: rgb(59, 248, 106);
+
+    position: absolute;
+    top: 100px;
+    right: 10px;
+    margin: 0;
+
+
 }
 
 
