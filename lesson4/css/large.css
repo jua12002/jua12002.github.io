@@ -15,6 +15,7 @@
 
     header img {
         max-width: 60%;
+        text-align: center;
     }
 
     nav ul.hide {display: block;}
