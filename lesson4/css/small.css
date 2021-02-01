@@ -11,17 +11,44 @@ nav button {
     float: right;
 }
 
-
-header img {
-    max-width: 40%;
-    height: auto;
-    text-align: center;
-    width: 140px;
-    float: left;
-    margin-right: 2rem;
-    margin-left: 2rem;
+body {
+    background-color: #fff;
+    padding: 0;
+    margin: 0;
 }
 
+
+header {
+    background-color: #fff;
+    padding: 5px 0;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+header img {
+    max-width: 70%;
+    height: auto;
+}
+
+.headings {
+    display: flex;
+    flex-direction: column;
+}
+
+.headings h1 {
+    font-size: 1.6rem;
+    margin: 0 0 0 17px;
+    color: #058b22;
+}
+
+.m  {
+    font-style: italic;
+    letter-spacing: 1pt;
+    color:rgb(7, 5, 1);
+    margin-left: 20px;
+    font-size: small;
+}
 
 
 nav {
