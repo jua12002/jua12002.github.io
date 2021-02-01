@@ -13,6 +13,10 @@
 
     /*h1 {display: none;}*/
 
+    header img {
+        max-width: 100%;
+    }
+
     nav ul.hide {display: block;}
 
     nav ul {margin-left: 2%;}
