@@ -7,14 +7,11 @@ html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
 
 
 nav button {
-    /*margin: .2rem 2%;*/
+    margin: .2rem 2%;
     background-color: transparent;
     border: none;
     font-size: 1.6rem;
     color: #fff;
-    display: flex;
-    flex-direction: column;
-    margin: 0;
 }
 
 
