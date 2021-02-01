@@ -4,7 +4,9 @@
 header img {
     max-width: 50%;
     text-align: center;
-}
+ }
+
+ nav buttom {display: none;}
 
 
  /*end medium */
