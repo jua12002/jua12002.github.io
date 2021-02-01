@@ -6,6 +6,11 @@ header img {
     
  }
 
+ .headings {
+    display: flex;
+    flex-direction: column;
+}
+
  .headings h1 {
     font-size: 2.6rem;
     
