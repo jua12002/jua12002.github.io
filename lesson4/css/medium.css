@@ -26,6 +26,7 @@ footer {
     color: rgb(7, 5, 1);
     margin-left: 17px;
     font-family: 'Gorditas', cursive;
+    max-width: 80%;
 }
 
  nav button {display: none;}

@@ -31,6 +31,7 @@
         letter-spacing: 2pt;
         color: rgb(7, 5, 1);
         margin-left: 20px;
+        max-width: 100%;
     }
 
     nav ul.hide {display: block;}
