@@ -85,6 +85,11 @@ nav ul li a:hover {background-color: rgba(0,0,0,0.4);}
 
 nav ul.hide {display: none;}
 
+footer {
+    text-align: center;
+    padding: 1rem 2%;
+    background-color:   #61c419 50%;
+}  
 
 .contentbox { 
     display: block;
