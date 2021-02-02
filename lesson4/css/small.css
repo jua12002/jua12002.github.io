@@ -31,6 +31,17 @@ header img {
     height: auto;
 }
 
+footer {
+    max-width: 70%;
+} 
+
+footer {
+    color: white;
+    text-align: center;
+    padding: 1rem 2%;
+    background-color: #24833a;
+} 
+
 .headings {
     display: flex;
     flex-direction: column;
@@ -46,6 +57,7 @@ header img {
 
 h2 {
     color: #000702;
+    margin: 0 0 0 17px;
     font-family: 'Gorditas', cursive;
 }
 
@@ -85,11 +97,7 @@ nav ul li a:hover {background-color: rgba(0,0,0,0.4);}
 
 nav ul.hide {display: none;}
 
-footer {
-    text-align: center;
-    padding: 1rem 2%;
-    background-color:   #61c419 50%;
-}  
+ 
 
 .contentbox { 
     display: block;

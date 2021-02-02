@@ -4,18 +4,21 @@
 header img {
     width: 80%;
     
- }
+}
 
- .headings {
+footer {
+    max-width: 80%;
+} 
+
+.headings {
     display: flex;
     flex-direction: column;
 }
 
- .headings h1 {
+.headings h1 {
     font-size: 2.6rem;
     
 }
-
 
 .m  {
     font-size: medium;
