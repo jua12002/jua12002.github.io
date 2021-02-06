@@ -94,6 +94,13 @@ nav ul li a:hover {background-color: rgba(0,0,0,0.4);}
 
 nav ul.hide {display: none;}
 
+main {
+    padding: 0 2%;
+    min-height: 10rem;
+}
+div#message {background-color: yellow;}
+div.showme{display: block;}
+div.hideme{display: none;}
 
 
 footer {
@@ -101,6 +108,7 @@ footer {
     text-align: center;
     padding: 1rem 2%;
     background-color: #24833a;
+    text-align: center;
 } 
 
 

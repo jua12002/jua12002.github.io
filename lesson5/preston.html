@@ -48,6 +48,7 @@
     
     
     <main>
+        <div id="message">The message about Sunday</div>
         <h2>Preston Idaho</h2>
         <div class="contentbox">Hero weather summary</div>
         <div class="contentbox forecast">5 Days Forecast</div>
@@ -58,7 +59,25 @@
     <footer>
         &copy; 2021 | Fabiola Juarez | Date: <span id="currentdate"></span>
     </footer>
+
+ <script>
+    const today = new Date();
+    console.log(today);
+
+    const dayNumber = today.getDate();
+    console.log(dayNumber);
     
+    const element = document.getElementById("message");
+    
+    if (dayNumber == 6) {
+        element.classList.add("showme");
+    } else {
+        element.classList.add("hideme");
+    }
+
+
+ </script>  
+
 <script src="js/currentdate.js"></script>    
 <script src="js/scripts.js"></script>
 </body>
