@@ -98,6 +98,8 @@ main {
     padding: 0 2%;
     min-height: 10rem;
 }
+section.forecast{display: none;}
+
 div#message {background-color: yellow;}
 div.showme{display: block;}
 div.hideme{display: none;}
