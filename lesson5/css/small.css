@@ -1,0 +1,135 @@
+/* Prevent adjustments of font size after orientation changes in IE on Windows Phone and in iOS.  
+html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}*/
+
+/*----------- apply a natural box layout model to all elements --------------
+* { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }*/
+
+* {-moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box; box-sizing:
+    border-box; }
+
+body {
+    background-color: #fff;
+    padding: 0;
+    margin: 0;
+}
+
+
+header {
+    background-color: #fff;
+    padding: 5px 0;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+header img {
+    max-width: 70%;
+    height: auto;
+}
+
+
+.headings {
+    display: flex;
+    flex-direction: column;
+}
+
+.headings h1 {
+    font-size: 1.6rem;
+    margin: 0 0 0 17px;
+    color: #058b22;
+    font-family: 'Lobster Two', cursive;
+}
+
+
+.m  {
+    font-style: italic;
+    letter-spacing: 1pt;
+    color:rgb(7, 5, 1);
+    margin-left: 20px;
+    font-size: small;
+    max-width: 70%;
+}
+
+
+h2 {
+    color: #000702;
+    margin: 0 0 0 17px;
+    font-family: 'Gorditas', cursive;
+}
+
+
+nav button {
+    border: none;
+    font-size: 1.6rem;
+    color: rgb(59, 248, 106);
+    float: right;
+}
+
+
+nav {
+    background-color: #058b22;
+    font-family: 'Hachi Maru Pop', cursive;
+    
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li a {
+    display: block;
+    padding: .8rem 2%;
+    text-decoration: none;
+    color: rgba(0,0,0,0.8);
+    border-top: 1px solid rgba(0,0,0,0.3);
+}
+
+
+nav ul li.active a{background-color: rgba(0,0,0,0.2); color: #fff;}
+
+nav ul li a:hover {background-color: rgba(0,0,0,0.4);}
+
+nav ul.hide {display: none;}
+
+
+
+footer {
+    color: white;
+    text-align: center;
+    padding: 1rem 2%;
+    background-color: #24833a;
+} 
+
+
+
+.contentbox { 
+    display: block;
+    margin: 10px auto;
+    border: 1px dashed grey;
+    padding: 15px;
+    background-color: rgb(233, 248, 211);
+    color: green
+}
+
+
+.clearfix:after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

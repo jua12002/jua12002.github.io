@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+ 
+<title>Your Weather Site</title>
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<link rel="Shortcut Icon" href="favicon.ico">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Gorditas&family=Hachi+Maru+Pop&family=Lobster+Two&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+
+<!-- STYLE SHEETS -->
+<link href="css/normalize.css" rel="stylesheet">
+<!-- phone-default -->
+<link href="css/small.css" rel="stylesheet">
+<!-- enhance-tablet -->
+<link href="css/medium.css" rel="stylesheet">
+<!-- enhance-desktop -->
+<link href="css/large.css" rel="stylesheet">
+</head>
+
+
+<body>
+    <header>
+      <picture>
+        <img class="logo" src="images/prestonlogo.png" alt="Preston Logo">
+      </picture>
+      <section class="headings">
+        <h1>Your Weather</h1>
+        <div class="m">Here the weather matters every single day</div>
+      </section>    
+    </header>
+        
+        
+    <nav class="clearfix">
+        <button onclick="toggleMenu()">&#9776;</button> 
+        <ul id="primaryNav" class="hide">
+                <li class="active"><a href="index.html">Home</a></li>
+                <li><a href="preston.html">Preston</a></li>
+                <li><a href="#">Soda Spring</a></li>
+                <li><a href="#">Five Haven</a></li>
+                <li><a href="#">Storm Center</a></li>
+                <li><a href="#">Galery</a></li>     
+        </ul>
+    </nav>
+        
+        
+    <main>
+        <h2>Why Weather matter in Preston</h2>
+        <p>In Preston, summers are hot and sunny, winters are cold and snowy, the other part of the year is usually 
+          dry.
+ 
+          Temperature typically ranges from 15 °F to 88 °F and rarely below 1 °F or above 94 °F.</p>
+        <img class="pic" src="images/prestonwheater.jpg" alt="Preston pic">
+        
+    </main>
+        
+       
+    <footer>
+      &copy; 2021 | Fabiola Juarez | Date: <span id="currentdate"></span>
+    </footer>
+    <script src="js/currentdate.js"></script>    
+    <script src="js/scripts.js"></script>
+    </body>
+    </html>
