@@ -58,9 +58,33 @@ header img {
     section.forecast{display: none;}  
 
 h2 {
+    text-align: center;
     color: #000702;
     margin: 0 0 0 17px;
     font-family: 'Gorditas', cursive;
+}
+
+
+.herodiv {
+    margin: 10px auto;
+    position: relative;
+    border: 1px dashed green;
+    width: 960px;
+    height: 300px;
+}
+
+hero_ph {
+    margin: 10px auto;
+    background-color: greenyellow;
+    border: 1px solid #333;
+    width: 960px;
+    height: 300px;
+}
+
+
+.summary {
+    position: absolute;
+    top: 10px;
 }
 
 
