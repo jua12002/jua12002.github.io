@@ -1,17 +1,16 @@
 /* Prevent adjustments of font size after orientation changes in IE on Windows Phone and in iOS.  
 html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}*/
+* {-moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box; box-sizing:
+    border-box; }
 
 /*64em is also 1028px (if basefont is 16px)*/
 @media only screen and (min-width: 64rem) {
     header, nav, main, footer {
         max-width: 64rem;
-        margin: auto;
+        margin: auto;  
     }
 }
-
-* {-moz-box-sizing: border-box;
-    -webkit-box-sizing: border-box; box-sizing:
-    border-box; }
 
 body {
     background-color: #fff;
@@ -54,8 +53,9 @@ header img {
     margin-left: 20px;
     font-size: small;
     max-width: 70%;
-}
-
+    }
+  
+    section.forecast{display: none;}  
 
 h2 {
     color: #000702;
@@ -99,17 +99,17 @@ nav ul li a:hover {background-color: rgba(0,0,0,0.4);}
 
 nav ul.hide {display: none;}
 
+
+div#message {background-color: yellow;}
+div.showme{display: block;}
+div.hideme{display: none;}
+
 main {
     padding: 0 2%;
     min-height: 10rem;
     }
 
-section.forecast{display: none;}
 
-
-div#message {background-color: yellow;}
-div.showme{display: block;}
-div.hideme{display: none;}
 
 
 footer {
