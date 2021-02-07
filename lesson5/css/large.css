@@ -1,5 +1,5 @@
 /* 64em is also 1028px when basefont is 16px */
-@media only screen and (min-width: 1028px) {
+@media only screen and (min-width: 1024px) {
     nav, main {
         max-width: 1200px;
         margin: auto;
