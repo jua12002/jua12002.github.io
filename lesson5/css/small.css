@@ -93,6 +93,13 @@ h2 {
     opacity: .8;
 }
 
+.mid_ph {
+    margin:1px;
+    border: 1px solid green;
+    float: right;
+    max-width: 30%;
+    height: auto;
+}
 
 nav button {
     border: none;
@@ -139,6 +146,12 @@ main {
     min-height: 10rem;
     }
 
+.map {
+    
+    float: center;
+    max-width: 25%;
+    height: auto;  
+}
 
 
 
