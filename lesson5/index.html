@@ -51,10 +51,38 @@
     <main>
         <h2>Why Weather matter in Preston</h2>
         <p>In Preston, summers are hot and sunny, winters are cold and snowy, the other part of the year is usually 
-          dry.
- 
-          Temperature typically ranges from 15 °F to 88 °F and rarely below 1 °F or above 94 °F.</p>
-        <!-- <img class="pic" src="images/prestonwheater.jpg" alt="Preston pic"> -->
+          dry</p>
+          
+          <section class="forecast">
+            <div>
+              <h5>Monday</h5>
+              <img src="images/sun.png" alt="sun">
+              <p>75&deg;</p>
+            </div>
+            <div>
+              <h5>Tuesday</h5>
+              <img src="images/rain.png" alt="sun">
+              <p>40&deg;</p>
+            </div>
+            <div>
+              <h5>Wednesday</h5>
+              <img src="images/sun.png" alt="sun">
+              <p>75&deg;</p>
+            </div>
+            <div>
+              <h5>Thrusday</h5>
+              <img src="images/snow.png" alt="sun">
+              <p>30&deg;</p>
+            </div>
+            <div>
+              <h5>Friday</h5>
+              <img src="images/sun.png" alt="sun">
+              <p>75&deg;</p>
+            </div>
+          </section>
+        
+        
+          <!-- <img class="pic" src="images/prestonwheater.jpg" alt="Preston pic"> -->
         
     </main>
         
@@ -62,6 +90,23 @@
     <footer>
       &copy; 2021 | Fabiola Juarez | Date: <span id="currentdate"></span>
     </footer>
+
+    <script>
+      const today = new Date();
+      console.log(today);
+  
+      const dayNumber = today.getDate();
+      console.log(dayNumber);
+      
+      const element = document.getElementById("message");
+      
+      if (dayNumber == 6) {
+          element.classList.add("showme");
+      } else {
+          element.classList.add("hideme");
+      }
+   </script>  
+
     <script src="js/currentdate.js"></script>    
     <script src="js/scripts.js"></script>
     </body>
