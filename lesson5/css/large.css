@@ -20,13 +20,8 @@
     
     }
     
-    footer {
-        max-width: 100%;
-    }
-
-    .headings h1 {
-        font-size: 3.6rem;
-        
+        .headings h1 {
+        font-size: 3.6rem; 
     }
 
     .m  {
@@ -37,6 +32,17 @@
         margin-left: 20px;
         max-width: 100%;
     }
+
+    hero_ph {
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 100%;
+        height: auto;
+        margin: 10px auto;
+    }
+
+
 
     nav ul.hide {display: block;}
 
@@ -52,6 +58,15 @@
         padding: .6rem 1rem;
         
         flex-direction: column;
+    }
+
+    .summary {
+        top:60px;
+        left: 90px;
+    }
+
+    footer {
+        max-width: 100%;
     }
 
 }  /* end large */
