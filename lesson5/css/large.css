@@ -51,8 +51,8 @@
 
 .summary {
     position: absolute;
-    top: 75px;
-    left: 55px;
+    top: 95px;
+    left: 50px;
     background: radial-gradient(#eee, #f0e009);
 	border: 1px solid #000;
     padding: .5rem;
