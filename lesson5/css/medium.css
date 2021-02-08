@@ -31,20 +31,7 @@ header img {
  
 }
 
-/*--------MAIN-----------
-section.forecast {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-}
-section.forecast div {
-    text-align: center;
-    border: 1px solid green;
-}
-section.forecast div h5 {
-    background-color: rgb(218, 243, 180);
-    margin: 0;
-    padding: 1rem 0;
-}
+
 */
 nav {/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#b4e391+0,61c419+50,b4e391+100;Green+3D */
     background: #b4e391; /* Old browsers */
@@ -91,5 +78,20 @@ nav .menu ul li a {
     flex-direction: column;
 }
 
+
+/*--------MAIN-----------*/
+section.forecast {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
+section.forecast div {
+    text-align: center;
+    border: 1px solid green;
+}
+section.forecast div h5 {
+    background-color: rgb(218, 243, 180);
+    margin: 0;
+    padding: 1rem 0;
+}
  
 }

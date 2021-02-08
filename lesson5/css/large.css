@@ -45,5 +45,20 @@
         flex-direction: column;
     }
 
+
+    /*--------MAIN-----------*/
+section.forecast {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
+section.forecast div {
+    text-align: center;
+    border: 1px solid green;
+}
+section.forecast div h5 {
+    background-color: rgb(218, 243, 180);
+    margin: 0;
+    padding: 1rem 0;
+}
     
 }  /* end large */
