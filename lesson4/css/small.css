@@ -73,13 +73,15 @@ nav {
     
 }
 
-nav ul {
+nav .menu ul {
+    display: flex;
+    flex-direction: column;
     list-style-type: none;
     padding: 0;
     margin: 0;
 }
 
-nav ul li a {
+nav .menu ul li a {
     display: block;
     padding: .8rem 2%;
     text-decoration: none;
@@ -88,11 +90,9 @@ nav ul li a {
 }
 
 
-nav ul li.active a{background-color: rgba(0,0,0,0.2); color: #fff;}
-
-nav ul li a:hover {background-color: rgba(0,0,0,0.4);}
-
-nav ul.hide {display: none;}
+nav .menu ul li.active a{background-color: rgba(0,0,0,0.2); color: #fff;}
+nav .menu ul li a:hover {background-color: rgba(0,0,0,0.4);}
+nav .menu ul.hide {display: none;}
 
 
 
@@ -102,6 +102,12 @@ footer {
     padding: 1rem 2%;
     background-color: #24833a;
 } 
+
+main, footer, .menu {
+    max-width: 900px;
+    margin: auto;
+
+}
 
 
 

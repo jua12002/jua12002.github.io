@@ -14,10 +14,6 @@
     header img {
         max-width: 100%;
     }
-    
-    footer {
-        max-width: 100%;
-    }
 
     .headings h1 {
         font-size: 3.6rem;  
@@ -32,15 +28,16 @@
         max-width: 100%;
     }
 
-    nav ul.hide {display: block;}
-
-    nav ul {margin-left: 2%;}
-    
-    nav ul li {
+    nav .menu ul.hide {display: block;}
+    nav .menu ul {
+        margin-left: 2%;
+        flex-direction: row;
+    }
+    nav .menu ul li {
         float: left;
     }
 
-    nav ul li a {
+    nav .menu ul li a {
         border:springgreen;
         border-right: 1px solid rgba(0,0,0,0.3);
         padding: .6rem 1rem;
