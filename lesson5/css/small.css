@@ -164,12 +164,11 @@ main, footer, .menu {
 
 
 .contact {
+    grid-template-columns: 1fr 1fr 1fr;
+    display: flex; 
+    margin: auto;
     background-color: #f4faf5;
-    display: flex;
-    flex-direction: 3 column;
-    list-style-type: square;
-    padding: 50;
-    margin: 50;
+    
 }
 
 footer {
