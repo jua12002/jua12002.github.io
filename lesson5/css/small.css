@@ -153,14 +153,7 @@ div.hideme{display: none;}
 main, footer, .menu {
     max-width: 900px;
     margin: auto;
-    }
-
-/*.map {
-     float: center;
-    max-width: 25%;
-    height: auto;  
-}*/
-
+}
 
 .contact {
     display: grid;
