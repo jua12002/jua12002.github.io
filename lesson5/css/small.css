@@ -13,7 +13,6 @@ body {
     margin: 0;
 }
 
-
 header {
     background-color: #fff;
     padding: 5px 0;
@@ -27,7 +26,6 @@ header img {
     height: auto;
 }
 
-
 .headings {
     display: flex;
     flex-direction: column;
@@ -39,7 +37,6 @@ header img {
     color: #058b22;
     font-family: 'Lobster Two', cursive;
 }
-
 
 .m  {
     font-style: italic;
@@ -58,7 +55,6 @@ h2 {
     margin: 0 0 0 17px;
     font-family: 'Gorditas', cursive;
 }
-
 
 .herodiv {
     margin: 10px auto;
@@ -129,13 +125,11 @@ nav .menu ul li a {
     border-top: 1px solid rgba(0,0,0,0.3);
 }
 
-
 nav .menu ul li.active a{background-color: rgba(0,0,0,0.2); color: #fff;}
 
 nav .menu ul li a:hover {background-color: rgba(0,0,0,0.4);}
 
 nav .menu ul.hide {display: none;}
-
 
 div#message {background-color: yellow;}
 div.showme{display: block;}
@@ -179,22 +173,8 @@ footer {
     color: green
 }
 
-
 .clearfix:after{
     content: "";
     display: table;
     clear: both;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
