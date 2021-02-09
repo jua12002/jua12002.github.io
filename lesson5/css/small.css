@@ -71,13 +71,13 @@ h2 {
     margin:1px auto;
     background-color: greenyellow;
     border: 1px solid green;
-    width: 98%;
+    width: 92%;
     height: 280px;
 }
 
 .summary {
     position: absolute;
-    top: 75px;
+    top: 87px;
     left: 55px;
     background: radial-gradient(#eee, #f0e009);
 	border: 1px solid #000;
