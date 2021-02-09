@@ -1,10 +1,3 @@
-/* Prevent adjustments of font size after orientation changes in IE on Windows Phone and in iOS.  
-html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
-* {-moz-box-sizing: border-box;
-    -webkit-box-sizing: border-box; box-sizing:
-    border-box; }
-
-64em is also 1028px (if basefont is 16px)*/
 @media only screen and (min-width: 64rem) {
     header, nav, main, footer {
         max-width: 64rem;
@@ -126,8 +119,6 @@ nav .menu ul li a {
     display: block;
     padding: .8rem 2%;
     text-decoration: none;
-    /*color: rgba(0,0,0,0.8);
-    border-top: 1px solid rgba(0,0,0,0.3);*/
 }
 
 nav .menu ul li a {
@@ -178,8 +169,6 @@ footer {
     padding: 1rem 2%;
     background-color: #24833a;
 } 
-
-
 
 .contentbox { 
     display: block;
