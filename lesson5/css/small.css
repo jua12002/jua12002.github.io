@@ -155,12 +155,11 @@ main, footer, .menu {
     margin: auto;
     }
 
-.map {
-    
-    float: center;
+/*.map {
+     float: center;
     max-width: 25%;
     height: auto;  
-}
+}*/
 
 
 .contact {
