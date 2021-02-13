@@ -60,12 +60,10 @@
           </figure> 
           <section class="summary">
               <h2>Weather Summary</h2>
-              <p>Currently Temperature is: <span id="temp">30</span>&deg;</p>
+              <p>Currently Temperature is: <span id="temp">34</span>&deg;</p>
               <p>Currently Wind speed is: <span id="speed">60</span>mph;</p>
-              <p id="chil">message</p>
-              <p>High: 30&#176;</p>
-              <p>Low: 20&#176;</p>
-              <p>Wind: 20 km/h</p>
+              <p id="chill">message</p>
+              
           </section>
        </div>
            
@@ -151,10 +149,10 @@
 
     if(tempNumber<=50 && speedNumber > 3) {
       document.getElementById("chill").textContent = "Wind Chill is"
-      +windchill+"\xB07";
+      +windchill+"\xB0F";
     } else {
       document.getElementById("chill").textContent = "No Wind Chill Today";
-      
+
     }
  </script>
 
