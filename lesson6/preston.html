@@ -60,7 +60,9 @@
           </figure> 
           <section class="summary">
               <h2>Weather Summary</h2>
-              <p>Currently: Snowing</p>
+              <p>Currently Temperature is: <span id="temp">30</span>&deg;</p>
+              <p>Currently Wind speed is: <span id="speed">60</span>mph;</p>
+              <p id="chil">message</p>
               <p>High: 30&#176;</p>
               <p>Low: 20&#176;</p>
               <p>Wind: 20 km/h</p>
@@ -135,6 +137,26 @@
     <footer>
         &copy; 2021 | Fabiola Juarez | Date: <span id="currentdate"></span>
     </footer>
+
+ <script>
+    const tempNumber = parseFloat(document.getElementById("temp").textContent);
+    console.log(tempNumber);
+    const speedNumber = parseFloat(document.getElementById("speed").textContent);
+    console.log(speedNumber);
+
+    let windchill = 35.74 + (0.6215 * tempNumber) - (35.75 * Math.pow(speedNumber,
+    0.16)) + (0.4275 * tempNumber * Math.pow(speedNumber, 0.16));
+    windchill = Math.round(windchill);
+    console.log(windchill);
+
+    if(tempNumber<=50 && speedNumber > 3) {
+      document.getElementById("chill").textContent = "Wind Chill is"
+      +windchill+"\xB07";
+    } else {
+      document.getElementById("chill").textContent = "No Wind Chill Today";
+      
+    }
+ </script>
 
  <script>
     const today = new Date();
