@@ -56,12 +56,11 @@
                   images/herolarge.jpg 1100w,
                   "
                   >
-                  <figcaption>The photo</figcaption>
           </figure> 
           <section class="summary">
               <h2>Weather Summary</h2>
               <p>Currently Temperature is: <span id="temp">34</span>&deg;</p>
-              <p>Currently Wind speed is: <span id="speed">60</span>mph;</p>
+              <p>Currently Wind speed is: <span id="speed">60</span>mph</p>
               <p id="chill">message</p>
               
           </section>
@@ -148,7 +147,7 @@
     console.log(windchill);
 
     if(tempNumber<=50 && speedNumber > 3) {
-      document.getElementById("chill").textContent = "Wind Chill is"
+      document.getElementById("chill").textContent = "Wind Chill is: "
       +windchill+"\xB0F";
     } else {
       document.getElementById("chill").textContent = "No Wind Chill Today";
