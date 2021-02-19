@@ -19,7 +19,7 @@ picture.myphotoA {
     width: 96%;
     margin: 0 2%;
 }
-main picture.myphotoA img, main picture.myphotoB img {width: 100%;}
+main picture.myphotoA img, main picture.myphotoB img {width: 100%; }
 
 main picture.myphotoA div, main picture.photoB div {
     text-align: center;
@@ -27,9 +27,9 @@ main picture.myphotoA div, main picture.photoB div {
     color: #d0aa94;
 }
 
-picture.photoB {
-    display: block;
+picture.myphotoB {
     float: right;
+    display: block;
     width: 46%;
     margin: 0 2%; 
 }
