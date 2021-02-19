@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+ 
+<title>Lazy Loading</title>
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<link rel="Shortcut Icon" href="favicon.ico">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+
+<!-- STYLE SHEETS -->
+<link href="css/normalize.css" rel="stylesheet">
+<!-- phone-default -->
+<link href="css/small.css" rel="stylesheet">
+<!-- enhance-tablet -->
+<link href="css/medium.css" rel="stylesheet">
+<!-- enhance-desktop -->
+<link href="css/large.css" rel="stylesheet">
+<!-- enhance-desktop -->
+</head>
+
+
+<body>
+    <header>
+      <h1>Lazy Loading</h1>    
+    </header>        
+    <main>    
+      <img src="images/temple1.jpg" loading="lazy" width="200" height="300" alt="Temple 1">  
+      <img src="images/temple2.jpg" loading="lazy" width="200" height="300" alt="Temple 2">
+      <img src="images/temple3.jpg" loading="lazy" width="200" height="300" alt="Temple 3">
+      <img src="images/temple4.jpg" loading="lazy" width="200" height="300" alt="Temple 4">
+      <img src="images/temple5.jpg" loading="lazy" width="200" height="300" alt="Temple 5">
+      <img src="images/temple6.jpg" loading="lazy" width="200" height="300" alt="Temple 6">
+      <img src="images/temple1.jpg" loading="lazy" width="200" height="300" alt="Temple 1">  
+      <img src="images/temple2.jpg" loading="lazy" width="200" height="300" alt="Temple 2">
+      <img src="images/temple3.jpg" loading="lazy" width="200" height="300" alt="Temple 3">
+      
+    </main>
+        
+       
+    <footer>
+      &copy; 2021 | Fabiola Juarez | Date: <span id="currentdate"></span>
+    </footer>
+
+    <script>
+      const today = new Date();
+      console.log(today);
+  
+      const dayNumber = today.getDate();
+      console.log(dayNumber);
+      
+      const element = document.getElementById("message");
+      
+        
+   </script>  
+
+    <script src="js/lazyload.js"></script>
+    <script src="js/currentdate.js"></script>    
+    <script src="js/scripts.js"></script>
+    </body>
+    </html>

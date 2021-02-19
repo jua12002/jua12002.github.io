@@ -7,13 +7,15 @@
 
 img {
     display: grid;
+    grid-template-columns: 300px 300px 300px;
+    grid-template-rows: 300px 300px 300px;
 
     /*ackground: #F1F1FA;
     display: block;
-    grid-column: 3;*/
+    
     width: 400px;
     height: 300px;
-    margin: 10px auto;
+    margin: 10px auto;*/
     
     }
 

@@ -49,14 +49,26 @@
         <div id="message">Saturday, Preston Pancakes in the Park! 9:00 a.m. at the city park pavilion</div>
         <h2>Preston Idaho</h2>
         <div class="herodiv">
-          <figure class="myphoto">
-                  
+          <picture class="myphotoA">
+              <source media="(max-width: 200px" srcset="images/hero200.jpg">
+              <source media="(max-width: 500px" srcset="images/hero500.jpg">
+              <source media="(max-width: 800px" srcset="images/hero800.jpg">
+              <img src="images/hero.jpg" alt="hero" >
+              
+                <!-- enhance-desktop 
                   <img src="images/hero.jpg" alt="heroban" sizes="50vw"
                   srcset="images/herosmall.jpg 400w,
                   images/heromedium.jpg 800w ,
-                  images/herolarge.jpg 1100w">
-
-          </figure> 
+                  images/herolarge.jpg 1100w"> 
+                -->
+          </picture> 
+          <!-- <picture class="myphotoB">
+            <source media="(max-width: 400px" srcset="images/hero200.jpg">
+            <source media="(max-width: 1000px" srcset="images/hero500.jpg">
+            <source media="(max-width: 1600px" srcset="images/hero800.jpg">
+            <img src="images/hero.jpg" alt="hero" >
+            <div>Hero picture</div>
+          </picture> -->
           <section class="summary">
               <h2>Weather Summary</h2>
               <p>Currently Temperature is: <span id="temp">34</span>&deg;</p>
