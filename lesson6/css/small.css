@@ -15,11 +15,17 @@ main picture.myphoto figcaption {text-align: center;font-size: .75rem;}
 */
 
 picture.myphotoA {
-    display: block;
-    width: 96%;
+    /*display: block;
+    width: 80%;*/
+    width: 50%;
+    height: auto;
     margin: 0 2%;
 }
-main picture.myphotoA img, main picture.myphotoB img {width: 100%; }
+/*
+main picture.myphotoA img, main picture.myphotoB img {width: 100%; }*/
+
+main picture.myphotoA img, main picture.myphotoB img {width: 90%; }
+
 
 main picture.myphotoA div, main picture.photoB div {
     text-align: center;
