@@ -45,6 +45,17 @@
         flex-direction: column;
     }
 
+
+    picture.myphotoA {
+        display: block;
+        width: 90%;
+        height: auto;
+        margin: 0 2%;
+        align-content: center;
+    }
+    
+    main picture.myphotoB img {width: 100%; }
+
 section.forecast {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;

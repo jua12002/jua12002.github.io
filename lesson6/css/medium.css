@@ -45,6 +45,21 @@ nav .menu ul li a {
     flex-direction: column;
 }
 
+
+picture.myphotoA {
+    display: block;
+    width: 60%;
+    height: auto;
+    margin: 0 2%;
+    align-content: center;
+}
+/*
+main picture.myphotoA img, main picture.myphotoB img {width: 100%; }*/
+
+main picture.myphotoB img {width: 100%; }
+
+
+
 section.forecast {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
