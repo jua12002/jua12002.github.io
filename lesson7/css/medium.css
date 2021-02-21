@@ -59,4 +59,6 @@ section.forecast div h5 {
     padding: 1rem 0;
 }
  
+.container {margin: 10px auto; text-align: center; display:grid; grid-template-columns: 1fr 1fr;}
+
 }

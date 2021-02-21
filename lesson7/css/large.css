@@ -58,5 +58,8 @@ section.forecast div h5 {
     margin: 0;
     padding: 1rem 0;
 }
+
+.container {margin: 10px auto; text-align: center; display:grid; grid-template-columns: 1fr 1fr 1fr; max-width: 1048px;}
+
     
 }  /* end large */
