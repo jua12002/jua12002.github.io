@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+ 
+<title>Lazy Loading</title>
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<link rel="Shortcut Icon" href="favicon.ico">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+
+<!-- STYLE SHEETS -->
+<link href="css/normalize.css" rel="stylesheet">
+<!-- phone-default -->
+<link href="css/small.css" rel="stylesheet">
+<!-- enhance-tablet -->
+<link href="css/medium.css" rel="stylesheet">
+<!-- enhance-desktop -->
+<link href="css/large.css" rel="stylesheet">
+<!-- enhance-desktop -->
+</head>
+
+
+<body>
+    <header>
+      <h1>Lazy Loading</h1>    
+    </header>        
+    <main>         
+          
+      <img src="https://ik.imagekit.io/demo/img/image1.jpeg?tr=w-400,h-300" />
+      <img src="https://ik.imagekit.io/demo/img/image2.jpeg?tr=w-400,h-300" />
+      <img src="https://ik.imagekit.io/demo/img/image3.jpg?tr=w-400,h-300" />
+      <img class="lazy" data-src="images/arizona.jpg?tr=w-400,h-300" />
+      <img class="lazy" data-src="https://ik.imagekit.io/demo/img/image5.jpeg?tr=w-400,h-300" />
+      <img class="lazy" data-src="https://ik.imagekit.io/demo/img/image6.jpeg?tr=w-400,h-300" />
+      <img class="lazy" data-src="https://ik.imagekit.io/demo/img/image7.jpeg?tr=w-400,h-300" />
+      <img class="lazy" data-src="https://ik.imagekit.io/demo/img/image8.jpeg?tr=w-400,h-300" />
+      <img class="lazy" data-src="https://ik.imagekit.io/demo/img/image9.jpeg?tr=w-400,h-300" />
+      <img class="lazy" data-src="https://ik.imagekit.io/demo/img/image10.jpeg?tr=w-400,h-300" /> 
+        
+        
+          <!-- <img class="pic" src="images/prestonwheater.jpg" alt="Preston pic"> -->
+        
+    </main>
+        
+       
+    <footer>
+      &copy; 2021 | Fabiola Juarez | Date: <span id="currentdate"></span>
+    </footer>
+
+    <script>
+      const today = new Date();
+      console.log(today);
+  
+      const dayNumber = today.getDate();
+      console.log(dayNumber);
+      
+      const element = document.getElementById("message");
+      
+      if (dayNumber == 6) {
+          element.classList.add("showme");
+      } else {
+          element.classList.add("hideme");
+      }
+   </script>  
+
+    <script src="js/lazyload.js"></script>
+    <script src="js/currentdate.js"></script>    
+    <script src="js/scripts.js"></script>
+    </body>
+    </html>
