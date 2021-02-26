@@ -24,7 +24,7 @@ img {
 
 .container {margin: 10px auto; display:grid;}
 
-img { width: 250px; height: 250px; margin: .5rem;}
+img { width: 250px; height: 250px; margin: 0rem;}
 figcaption {font-size:x-large;}
 /* hover effect */
 .norm:hover {box-shadow: 0 0 50px rgb(79, 124, 248);}
