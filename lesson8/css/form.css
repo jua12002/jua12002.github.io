@@ -1,0 +1,93 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat&display=swap");
+
+body {
+	height: 100vh;
+	font-size: 14px;
+	font-family: Montserrat, helvetica, sans-serif;
+    text-align: left;
+    padding: 1rem 2%;
+}
+em {
+	font-size: smaller;
+}
+
+input,
+button,
+select,
+textarea {
+	display: block;
+	padding: 1rem;
+	margin-bottom: 1rem;
+}
+
+label, legend {
+	display: block;
+	font-size: 1rem;
+	font-weight: 700;
+	width: 200px;
+}
+
+input:focus {
+	box-shadow: 0 0 10px rgb(144, 253, 202);
+}
+fieldset {
+	background-color: rgb(245, 241, 191);
+	border: 1px solid rgb(243, 217, 72);
+}
+
+.nestedfieldset {
+	background-color: rgb(190, 240, 190);
+	margin-bottom: 1rem;
+	text-align: center;
+}
+
+input[type="button"] {
+	color: rgb(0, 255, 0);
+}
+input[type="button"]:hover {
+	background-color: #ddf;
+}
+
+input:invalid {
+	background-color: rgb(243, 241, 220);
+	color: #000;
+}
+input:valid {
+	background-color: rgb(171, 238, 171);
+	color: #000;
+}
+
+.flexly {
+	display: flex;
+	align-items: center;
+	text-align: left;
+}
+
+#ratingvalue {
+	margin: 0 15px;
+	color: #2075ff;
+}
+
+#selected {
+	position: absolute;
+	top: 550px;
+	left: 300px;
+	border: 1px solid #999;
+	background-color: #abe;
+	padding: 10px;
+	font-weight: 700;
+	display: none;
+}
+
+.bottom {
+	display: flex;
+	align-content: bottom;
+}
+
+.sbutton {
+	margin: .1rem;
+	background-color: #abe;
+	font-weight: 700;
+	border: 1px solid #777;
+	box-shadow: 0 0 7px #777;
+}
