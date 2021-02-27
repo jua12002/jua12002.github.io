@@ -18,6 +18,7 @@
 <link href="css/medium.css" rel="stylesheet">
 <!-- enhance-desktop -->
 <link href="css/large.css" rel="stylesheet">
+<link href="css/form.css" rel="stylesheet">
 </head>
 
 <body>
@@ -44,40 +45,32 @@
           </ul>
         </div>
     </nav>
-        
-    <main class="clearfix">
-         <!--        
-          <div class="herodiv">
-            <picture class="myphotoA">
-                <source media="(max-width: 200px)" srcset="images/stormcenter200.jpg">
-                <source media="(max-width: 400px)" srcset="images/stormcenter400.jpg">
-                <source media="(max-width: 800px)" srcset="images/stormcenter800.jpg">
-                <img src="images/stormcenter.jpg" alt="hero">
-            </picture> -->
-    </main>
-    <h1>Storm Center</h1>              
+                      
      <form>
-        <label>Full name:
-            <input type="text" name="fname" required pattern="([A-Za-z]).{5,}"
-            title="Full name is requiered and minimun 5 characters"><br>
-        </label>
+        
+        <fieldset> 
+            <label>*Full name:
+                <input type="text" name="fname" required pattern="([A-Za-z]).{5,}"><br>
+            </label>
+ 
+            <label>Email:
+                <input type="email" name="email" placeholder="user@email.org" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$"><br>
+            </label>
 
-        <label>email:
-            <input type="email" name="email" placeholder="user@email.org" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$"><br><br>
-        </label>
-
-        <label>Phone:
-			<input type="tel" name="phone" placeholder="###-###-####" required pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}">
-		</label>
-
-        <label for="zip">Zip Code:
-			<input type="text" id="zip" name="zip" requiered pattern="(\d{5}([\-]\d{4})?)" autocomplete="shipping postal-codep">
-        </label><br>
-
+            <label>*Phone:
+			    <input type="tel" name="phone" placeholder="###-###-####" required pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"><br>
+		    </label>
+        
+            <fieldset>
+                <label for="zip">Zip Code:
+                    <input type="text" id="zip" name="zip" pattern="(\d{5}([\-]\d{4})?)" autocomplete="shipping postal-codep"></label><br>
+                </label>
+            </fieldset>
+        </fieldset>
         <fieldset>
             <label>Storm Date:
               <input type="date" name="theDate">
-            </label>
+            </label><br>
 
             <label>Storm type:
                 <input name="browsers" list="browserlist"></label>
@@ -87,9 +80,8 @@
                 <option value="Hurricane">
                 <option value="Thunderstorm">
                 <option value="Tornado">
-            </datalist>
+            </datalist><br>
             
-
             <label class="flexly" for="rating">Storm severity: &nbsp;&nbsp;&nbsp;
                 <input type="range" id="rating" value="5" min="1" max="10" step="1" list="tickmarks" oninput="adjustRating(this.value)" onchange="adjustRating(this.value)">
                 <span id="ratingvalue">5</span>
@@ -107,40 +99,40 @@
                 <option value="8">
                 <option value="9">
                 <option value="10">
-            </datalist>
-            <br>
-
-            <label>
-                <select name="browsers" id="selectbrowser" onchange="selectResponse()">
-                    <option value="" disabled selected>Select Region...</option>
-                    <option value="Preston">Preston</option>
-                    <option value="Soda Springs">Soda Spring</option>
-                    <option value="Fish Haven">Fish Haven</option>
-                </select></label>
+            </datalist><br>         
+           
+            <select name="browsers" id="selectbrowser" onchange="selectResponse()">
+                <option value="" disabled selected>Select Region...</option>
+                <option value="Preston">Preston</option>
+                <option value="Soda Springs">Soda Spring</option>
+                <option value="Fish Haven">Fish Haven</option>
+            </select><br>
+             
         </fieldset>
         
-        <fieldset class="nestedfieldset">
-			<legend>Danger level<em>(Choose one)</em></legend>
-			<div class="selection">
-				<input type="radio" id="time1" name="time" value="Y" checked> <label for="time1">Yes</label>
-			</div>
-			<div class="selection">
-				<label><input type="radio" name="time" value="M"> Maybe</label>
-			</div>
-			<div class="selection">
-				<input type="radio" id="time3" name="time" value="N">
-				<label for="time3">No</label>
-			</div>
-        </fieldset>
-
-
+            <fieldset class="nestedfieldset">
+			    <legend>Danger level (Choose one)</legend>
+			    <div class="selection">
+				     <input type="radio" id="time1" name="time" value="Y" checked> <label for="time1">Yes</label>
+			    </div>
+			    <div class="selection">
+				    <label><input type="radio" name="time" value="M"> Maybe</label>
+			    </div>
+			    <div class="selection">
+				    <input type="radio" id="time3" name="time" value="N">
+				    <label for="time3">No</label>
+			    </div>
+            </fieldset><br>
+           
         <input type="submit" value="Submit">
+
     </form>  
 
     <footer>
         &copy; 2021 | Fabiola Juarez | Date: <span id="currentdate"></span>
     </footer>
 <script src="js/currentdate.js"></script>    
+<script src="js/form.js"></script>
 <script src="js/scripts.js"></script>
 </body>
 </html>
