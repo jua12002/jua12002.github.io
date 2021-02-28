@@ -88,10 +88,10 @@ input:valid {
 	display: none;
 }
 
-.bottom {
+/*.bottom {
 	display: flex;
 	align-content: bottom;
-}
+}*/
 
 .sbutton {
 	margin-left: 15rem;
