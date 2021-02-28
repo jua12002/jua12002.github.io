@@ -60,12 +60,11 @@
             <label>*Phone:
 			    <input type="tel" name="phone" placeholder="###-###-####" required pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"><br>
 		    </label>
+
+            <label>Zip Code:
+			    <input type="zip" name="Zip Code" pattern="(\d{5}([\-]\d{4})?)" autocomplete="shipping postal-codep"></label><br>
+		    </label>
         
-            <fieldset>
-                <label for="zip">Zip Code:
-                    <input type="text" id="zip" name="zip" pattern="(\d{5}([\-]\d{4})?)" autocomplete="shipping postal-codep"></label><br>
-                </label>
-            </fieldset>
         </fieldset>
         <fieldset>
             <label>Storm Date:
@@ -110,20 +109,21 @@
              
         </fieldset>
         
-            <fieldset class="nestedfieldset">
-			    <legend>Danger level (Choose one)</legend>
-			    <div class="selection">
-				     <input type="radio" id="time1" name="time" value="Y" checked> <label for="time1">Yes</label>
-			    </div>
-			    <div class="selection">
-				    <label><input type="radio" name="time" value="M"> Maybe</label>
-			    </div>
-			    <div class="selection">
-				    <input type="radio" id="time3" name="time" value="N">
-				    <label for="time3">No</label>
-			    </div>
-            </fieldset><br>
-           
+        <fieldset class="nestedfieldset">
+			<legend>Danger level?<em>(Choose one)</em></legend>
+			<label class="selection">
+				<input type="radio" name="danger" value="Yes">Yes</label>
+			<label class="selection">
+				<input type="radio" name="danger" value="Maybe">Maybe</label>
+			<label class="selection">
+				<input type="radio" name="danger" value="No">No</label>
+		</fieldset>
+
+        <fieldset> 
+            <label>Comments:
+                <textarea rows="5" cols="100" name="comment" form="usrform"> Enter comments here...</textarea>
+            </label>
+        </fieldset>             
         <input type="submit" value="Submit">
 
     </form>  

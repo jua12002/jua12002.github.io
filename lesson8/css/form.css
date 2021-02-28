@@ -15,31 +15,40 @@ input,
 button,
 select,
 textarea {
-	display: block;
-	padding: 1rem;
-	margin-bottom: 1rem;
+	margin-bottom: .5rem;
+    display: block;
+    font-size: 1rem;
+	border: 2px solid #333;
+    border-radius: 6px;
+	padding: .50rem; 
+    color: rgb(7, 92, 4);
+    width: 100%;
+    max-width: 20rem;
 }
 
 label, legend {
+	margin-top: .5rem;
+	margin-left: 5rem;
 	display: block;
 	font-size: 1rem;
 	font-weight: 700;
 	width: 200px;
+	max-width: 20rem;
 }
 
 input:focus {
-	box-shadow: 0 0 10px rgb(144, 253, 202);
+	box-shadow: 0 0 10px rgb(6, 141, 78);
 }
 fieldset {
 	background-color: rgb(245, 241, 191);
-	border: 1px solid rgb(243, 217, 72);
 }
 
 .nestedfieldset {
-	background-color: rgb(190, 240, 190);
-	margin-bottom: 1rem;
-	text-align: center;
+	background-color: #fff;
+	margin-bottom: 2rem;
+
 }
+
 
 input[type="button"] {
 	color: rgb(0, 255, 0);
@@ -59,8 +68,8 @@ input:valid {
 
 .flexly {
 	display: flex;
-	align-items: center;
 	text-align: left;
+	align-items: center;
 }
 
 #ratingvalue {
@@ -72,7 +81,7 @@ input:valid {
 	position: absolute;
 	top: 550px;
 	left: 300px;
-	border: 1px solid #999;
+	border: 1px solid rgb(6, 97, 51);
 	background-color: #abe;
 	padding: 10px;
 	font-weight: 700;
@@ -85,9 +94,18 @@ input:valid {
 }
 
 .sbutton {
-	margin: .1rem;
+	margin-left: 15rem;
 	background-color: #abe;
-	font-weight: 700;
-	border: 1px solid #777;
-	box-shadow: 0 0 7px #777;
+	/*font-weight: 200;*/
+	border: 1px solid rgb(8, 221, 19);
+	box-shadow: 0 0 7px #777;	
+
+	margin-bottom: .5rem;
+    /*display: block;*/
+    font-size: 1rem;
+    border-radius: 6px;
+	padding: .50rem; 
+    color: rgb(7, 92, 4);
+    width: 100%;
+    max-width: 20rem;
 }
