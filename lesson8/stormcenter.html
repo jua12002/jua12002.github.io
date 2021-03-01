@@ -49,7 +49,8 @@
                       
      <form>
         
-        <fieldset> 
+        <fieldset>
+            <h1>Personal Information</h1>
             <label>*Full name:
                 <input type="text" name="fname" required pattern="([A-Za-z]).{5,}"><br>
             </label>
@@ -69,6 +70,7 @@
         
         </fieldset>
         <fieldset>
+            <h1>General Information</h1>
             <label>Storm Date:
               <input type="date" name="theDate">
             </label><br>
@@ -109,21 +111,21 @@
                 <option value="Fish Haven">Fish Haven</option>
             </select><br>
              
-        </fieldset>
-        
-        <fieldset class="nestedfieldset">
-			<legend>Danger level?<em>(Choose one)</em></legend>
-			<label class="selection">
-				<input type="radio" name="danger" value="Yes">Yes</label>
-			<label class="selection">
-				<input type="radio" name="danger" value="Maybe">Maybe</label>
-			<label class="selection">
-				<input type="radio" name="danger" value="No">No</label>
+            <h3>It is dangerous?...</h3>
+            <div>
+                <input type="radio" name="my-input" id="yes">
+                <label for="yes">Yes</label>
+                <input type="radio" name="my-input" id="no">
+                <label for="no">No</label>
+                <input type="radio" name="my-input" id="maybe">
+                <label for="maybe">Maybe</label>
+            </div>             
+               
 		</fieldset>
 
         <fieldset> 
             <label>Comments:
-            <textarea name="comment" rows="5" cols="50"> Enter comments here...</textarea>
+            <textarea name="comment" rows="5" cols="50" placeholder="Enter comments here..."></textarea>
             </label>
         </fieldset>             
         <input type="submit" value="Submit">
