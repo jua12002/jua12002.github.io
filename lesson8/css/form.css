@@ -100,10 +100,11 @@ input:valid {
     max-width: 20rem;
 }
 
-/* Radio element, when checked */
-label[type="radio"]:checked {
-	
+/* Radio element, when checked
+ 
+input[type="radio"]:checked*/
+
+.ymn {
 	display: flex;
-	text-align: left;
-	align-items: center;
+	padding: .20rem;
 } 
