@@ -47,10 +47,11 @@
         </div>
     </nav>
                       
-     <form>
+     
         
         <fieldset>
             <h1>Personal Information</h1>
+            <form action="thanks.html" method="GET" title="Storm Center">
             <label>*Full name:
                 <input type="text" name="fname" required pattern="([A-Za-z]).{5,}"><br>
             </label>
@@ -110,17 +111,7 @@
                 <option value="Soda Springs">Soda Spring</option>
                 <option value="Fish Haven">Fish Haven</option>
             </select><br>
-            <!-- 
-            <h3>It is dangerous?...</h3>
-            <div>
-                <input type="radio" name="my-input" id="yes">
-                <label for="yes">Yes</label>
-                <input type="radio" name="my-input" id="no">
-                <label for="no">No</label>
-                <input type="radio" name="my-input" id="maybe">
-                <label for="maybe">Maybe</label>
-            </div>   
-            -->
+            
             <h3>It is dangerous?...</h3>
                 <label class="ymn"><input type="radio" name="dangerLevel" value="yes"> Yes</label>
                 <label class="ymn"><input type="radio" name="dangerLevel" value="maybe"> Maybe</label>
@@ -132,8 +123,11 @@
             <textarea name="comment" rows="5" cols="50" placeholder="Enter comments here..."></textarea>
             </label>
         </fieldset>             
-        <input type="submit" value="Submit">
-
+        <input
+            type="submit"
+            value="Submit"
+            class="submit"
+        />
     </form>  
 
     <footer>
