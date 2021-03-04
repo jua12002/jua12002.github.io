@@ -52,7 +52,7 @@ fetch(requestURL)
 const imgHover = document.getElementsByTagName('img')[0];
 const sect = document.getElementsByTagName('section')[0];
 
-window.addEventListener('load',function () {
+/*window.addEventListener('load',function () {
     sect.classList.remove('loading');
     
 });
@@ -62,4 +62,4 @@ sect.addEventListener('mouseover', function() {
 },false)
 sect.addEventListener('mouseout',function () {
     imgHover.classList.remove('white-border')    
-},false)
+},false)*/
