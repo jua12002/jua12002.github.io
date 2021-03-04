@@ -15,6 +15,11 @@ fetch(requestURL)
             let bodyDiv = document.createElement('div');
             bodyDiv.classList.add('card-body');
 
+            /*let h2 = document.createElement('h2');
+            h2.textContent = prophets[i].name + ' ' + prophets[i].lastname;
+            card.appendChild(h2);
+            document.querySelector('div.cards').appendChild(card);*/
+
             // h1 - name
             let fullName = document.createElement('h1');
             fullName.textContent = prophets[i].name + ' ' + prophets[i].lastname;
@@ -50,7 +55,7 @@ const sect = document.getElementsByTagName('section')[0];
 window.addEventListener('load',function () {
     sect.classList.remove('loading');
     
-})
+});
 
 sect.addEventListener('mouseover', function() {
     imgHover.classList.add('white-border');    
