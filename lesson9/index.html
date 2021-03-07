@@ -46,7 +46,6 @@
     </nav>
         
     <main class="clearfix">
-        <!--<div id="message">Saturday, Preston Pancakes in the Park! 9:00 a.m. at the city park pavilion</div> -->
         <h2>Home Weather Site</h2>
         <div class="herodiv">
           <picture class="myphotoA">
@@ -55,95 +54,47 @@
               <source media="(max-width: 800px)" srcset="images/hero800medium.jpg">
               <img src="images/hero1100.jpg" alt="hero">
     
-          </picture> 
-          <!--
-          <section class="summary">
-              <h2>Weather Summary</h2>
-              <p>Currently Temperature is: <span id="temp">34</span>&deg;</p>
-              <p>Currently Wind speed is: <span id="speed">60</span>mph</p>
-              <p id="chill">message</p>
-              
-          </section> -->
+          </picture>   
        </div>
-           
-        <!--<h2>Weather for the week</h2>
-        <section class="forecast">
-          <div>
-            <h5>Monday</h5>
-            <img src="images/sun.jpg" alt="sun">
-            <p>75&deg;</p>
-          </div>
-          <div>
-            <h5>Tuesday</h5>
-            <img src="images/rain.jpg" alt="sun">
-            <p>40&deg;</p>
-          </div>
-          <div>
-            <h5>Wednesday</h5>
-            <img src="images/sun.jpg" alt="sun">
-            <p>75&deg;</p>
-          </div>
-          <div>
-            <h5>Thrusday</h5>
-            <img src="images/snow.jpg" alt="sun">
-            <p>30&deg;</p>
-          </div>
-          <div>
-            <h5>Friday</h5>
-            <img src="images/sun.jpg" alt="sun">
-            <p>75&deg;</p>
-          </div>
-        </section>-->
 
-        <section>
+       
+       <div class="cards" id="cards">
+      </div>
+   
+
+        <!-- <section>
           <h2>3 Towns</h2>
           <article>
             <img src="https://placekitten.com/200/200" alt="image 1">
-            <div class="data">
+            <div class="cards">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus vel sem ac felis egestas dapibus. Donec efficitur lacus eget varius molestie. Sed bibendum elit elit, ut consequat nibh egestas vel. Sed non purus sed dolor lobortis feugiat. Sed porttitor
               augue felis. Morbi condimentum metus a tortor eleifend bibendum. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam sed lectus sed nisi laoreet varius et ut turpis.
             </div>
           </article>
           <article>
             <img src="https://placekitten.com/200/200" alt="image 2">
-            <div class="data">
+            <div class="cards">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus vel sem ac felis egestas dapibus. Donec efficitur lacus eget varius molestie. Sed bibendum elit elit, ut consequat nibh egestas vel. Sed non purus sed dolor lobortis feugiat. Sed porttitor
               augue felis. Morbi condimentum metus a tortor eleifend bibendum. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam sed lectus sed nisi laoreet varius et ut turpis.
             </div>
           </article>
           <article>
             <img src="https://placekitten.com/200/200" alt="image 3">
-            <div class="data">
+            <div class="cards">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus vel sem ac felis egestas dapibus. Donec efficitur lacus eget varius molestie. Sed bibendum elit elit, ut consequat nibh egestas vel. Sed non purus sed dolor lobortis feugiat. Sed porttitor
               augue felis. Morbi condimentum metus a tortor eleifend bibendum. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam sed lectus sed nisi laoreet varius et ut turpis.
             </div>
           </article>
-        </section>
+        </section> -->
 
-
-
-
-<!--
-        <h2>Don't be afraid, enjoy the winter</h2>
-         <picture class="myphotoB">
-            <source media="(max-width: 400px)"  srcset="images/sportsw200.jpg">
-            <source media="(max-width: 1000px)" srcset="images/sportsw500.jpg">
-            <source media="(max-width: 1600px)" srcset="images/sportsw800.jpg">
-            <img src="images/sportsw1100.jpg" alt="sportsw">
-          </picture> 
-          <div>
-          <p>Winter sports or winter activities are competitive sports or non-competitive recreational activities which 
-            are played on snow or ice.[1] Most are variations of skiing, ice skating and sledding. Traditionally, such 
-            games were only played in cold areas during winter, but artificial snow and artificial ice allow more flexibility. 
-            Artificial ice can be used to provide ice rinks for ice skating, ice hockey, and bandy in a milder climate.<br><br>
-
-            Common individual sports include cross-country skiing, alpine skiing, snowboarding, ski jumping, speed skating,
-            figure skating, luge, skeleton, bobsleigh, ski orienteering and snowmobiling. Common team sports include ice 
-            hockey, curling, and bandy. Based on the number of participants, ice hockey is by far the world's most popular 
-            winter sport, followed by bandy.[2] Winter sports have their own multi-sport events, such as the Winter Olympic
-            Games and the Winter Universiade.                   Wikipedia</p>
-          </div> -->
-
+        <h2>Come and visit us</h2><br>
+        <article class="visitus">
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Soluta aspernatur quo numquam 
+            et repudiandae eligendi ratione sapiente praesentium impedit vero delectus minima laboriosam nam, 
+            earum reprehenderit? Mollitia tempore esse deleniti.</p>
+            <img class="visitusimg" src="/lesson9/images/landscape400.jpg" alt="Landscape">
+        </article>
+   
         <h2>Contact Us</h2>
         <div class="contact">
           <div>
@@ -162,32 +113,14 @@
             </a>
           </div>
        </div>
-                   
+         
+       
     </main>
     
     <footer>
         &copy; 2021 | Fabiola Juarez | Date: <span id="currentdate"></span>
     </footer>
 
- <script>
-    const tempNumber = parseFloat(document.getElementById("temp").textContent);
-    console.log(tempNumber);
-    const speedNumber = parseFloat(document.getElementById("speed").textContent);
-    console.log(speedNumber);
-
-    let windchill = 35.74 + (0.6215 * tempNumber) - (35.75 * Math.pow(speedNumber,
-    0.16)) + (0.4275 * tempNumber * Math.pow(speedNumber, 0.16));
-    windchill = Math.round(windchill);
-    console.log(windchill);
-
-    if(tempNumber<=50 && speedNumber > 3) {
-      document.getElementById("chill").textContent = "Wind Chill is: "
-      +windchill+"\xB0F";
-    } else {
-      document.getElementById("chill").textContent = "No Wind Chill Today";
-
-    }
- </script>
 
  <script>
     const today = new Date();
@@ -207,5 +140,6 @@
 
 <script src="js/currentdate.js"></script>    
 <script src="js/scripts.js"></script>
+<script src="js/towns.js"></script>
 </body>
 </html>
