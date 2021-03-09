@@ -10,9 +10,9 @@ h1, footer {
 }
 
 main section {
-    background-image: linear-gradient (green, yellow, purple, blue);
     margin-left: 25px;
     text-align: center;
+    background: radial-gradient(circle, rgb(232, 240, 225) 20%, rgb(17, 118, 233) 55%, rgb(95, 112, 116) 100%);
 }
 
 
