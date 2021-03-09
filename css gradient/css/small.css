@@ -35,6 +35,8 @@ picture.myphotoB {
 }
 
 
+
+
 body {
     background-color: #fff;
     padding: 0;
@@ -59,12 +61,6 @@ header img {
     flex-direction: column;
 }
 
-.headings h1 {
-    font-size: 1.6rem;
-    margin: 0 0 0 17px;
-    color: #058b22;
-    font-family: 'Lobster Two', cursive;
-}
 
 .m  {
     font-style: italic;
@@ -73,15 +69,11 @@ header img {
     margin-left: 20px;
     font-size: small;
     max-width: 70%;
-    }
+}
   
-    section.forecast{display: none;}  
+    section.forecast{display: none;  
 
-h2 {
-    text-align: center;
-    color: #000702;
-    /*margin: 0 0 0 17px;*/
-    font-family: 'Gorditas', cursive;
+   font-family: 'Gorditas', cursive;
 }
 
 .herodiv {
@@ -197,7 +189,7 @@ footer {
     margin: 10px auto;
     border: 1px dashed grey;
     padding: 15px;
-    background-color: rgb(233, 248, 211);
+    background-color: rgb(250, 232, 153);
     color: green
 }
 
@@ -207,16 +199,6 @@ footer {
     clear: both;
 }
 
-h2 {text-align:center;}
-
-/*section {
-	max-width: 600px;
-    margin: .5rem auto;
-	border:1px solid #bbb;
-    background-color: #eee;
-	display: flex;
-	flex-wrap: wrap;
-}*/
 
 article {
   display: flex;
@@ -227,11 +209,11 @@ article:nth-child(odd) {
 	flex-direction: row-reverse;
 }
 
-img {border:1px solid #000080; width: 100%; height: auto;}
+img {width: 100%; height: auto;}
 .data {background-color:#000; color:#fff;}
 
  /*Town*/
-#cards img{
+ #cards img{
     padding: 15px;
     width:300px;
     box-shadow: 0 4px 8px 0 rgba(29, 28, 28, 0.5);
@@ -242,7 +224,39 @@ img {border:1px solid #000080; width: 100%; height: auto;}
     color: #0D153B;
     display: block;
     border: #0D153B solid 2px;
-    background-color: rgb(218, 243, 180);   
+    background: rgb(34,193,195);
+    background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%);   
+}
+
+.headings, h1 {
+    font-size: 1.6rem;
+    margin: 0 0 0 17px;
+    color: #058b22;
+    font-family: 'Lobster Two', cursive;
+    background: -webkit-radial-gradient(rgb(241, 247, 162),#0678fa, rgba(29, 241, 10, 0.774));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+h2 {
+    font-size: 3rem;
+    margin: 0 0 0 17px;
+    font-family: 'Lobster Two';
+    background: -webkit-linear-gradient(rgb(241, 247, 162),#0678fa, rgba(29, 241, 10, 0.774));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-align: center;
+}
+   
+
+h3 {
+    font-size: 2rem;
+    margin: 0 0 0 17px;
+    font-family: 'Gordita';
+    background: -webkit-linear-gradient( blue, green);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-align: center;
 }
 
 #cards {
@@ -267,12 +281,3 @@ img {
 #visitusimg {
 float:right
 }
-
-
-
-
-
-
-
-
-

@@ -97,6 +97,8 @@ h2 {
     border: 1px solid green;
     width: 92%;
     height: 280px;
+    background-image: linear-gradient(red, pink, blue,green);
+
 }
 
 .summary {
