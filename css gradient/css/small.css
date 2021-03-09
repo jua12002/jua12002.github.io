@@ -233,7 +233,7 @@ img {width: 100%; height: auto;}
     margin: 0 0 0 17px;
     color: #058b22;
     font-family: 'Lobster Two', cursive;
-    background: -webkit-radial-gradient(rgb(241, 247, 162),#0678fa, rgba(29, 241, 10, 0.774));
+    background: -webkit-radial-gradient(blue, magenta);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
   }

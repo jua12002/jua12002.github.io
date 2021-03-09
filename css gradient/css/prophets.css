@@ -3,7 +3,7 @@ h1, footer {
     margin: auto;
     text-align: center;
     font-family: 'Gorditas';
-        font-size: 22px;
+    font-size: 22px;
     background: -webkit-linear-gradient( white, rgb(223, 74, 29), rgb(246, 250, 8), rgb(236, 5, 5));
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
