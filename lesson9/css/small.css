@@ -62,7 +62,10 @@ header img {
 .headings h1 {
     font-size: 1.6rem;
     margin: 0 0 0 17px;
-    color: #058b22;
+    /*color: #058b22;*/
+    background: -webkit-linear-gradient(#13477a, #3bb68f);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
     font-family: 'Lobster Two', cursive;
 }
 
@@ -97,8 +100,6 @@ h2 {
     border: 1px solid green;
     width: 92%;
     height: 280px;
-    background-image: linear-gradient(red, pink, blue,green);
-
 }
 
 .summary {
@@ -129,7 +130,10 @@ nav button {
 
 
 nav .menu ul {
-    background-color: #058b22;
+    background: #43cea2;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to bottom, #3f98f1, #43cea2);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to bottom, #4c9dee, #43cea2); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */        
+
     font-family: 'Hachi Maru Pop', cursive;
     display: flex;
     flex-direction: column;
@@ -174,10 +178,11 @@ main, footer, .menu {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     text-align: center;
-    background-color: rgb(218, 243, 180);
+    background: #DAD299;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #B0DAB9, #DAD299);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #B0DAB9, #DAD299); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */   
     margin: 0;
-    padding: 1rem 0;
-     
+    padding: 1rem 0;    
 }
 
 .map {
@@ -191,7 +196,9 @@ footer {
     color: white;
     text-align: center;
     padding: 1rem 2%;
-    background-color: #24833a;
+    background: #43cea2;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to bottom, #3f98f1, #43cea2);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to bottom, #4c9dee, #43cea2); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */        
 } 
 
 .contentbox { 
@@ -244,7 +251,10 @@ img {border:1px solid #000080; width: 100%; height: auto;}
     color: #0D153B;
     display: block;
     border: #0D153B solid 2px;
-    background-color: rgb(218, 243, 180);   
+background: #43cea2;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to bottom, #185a9d, #43cea2);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to bottom, #185a9d, #43cea2); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
 }
 
 #cards {
@@ -261,7 +271,7 @@ img {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     text-align: center;
-    background-color: rgb(218, 243, 180);
+    background-color: rgb(43, 70, 3);
     margin: 0;
     padding: 1rem 0;
 }
