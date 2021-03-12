@@ -4,7 +4,8 @@ h1, footer {
     text-align: center;
     font-family: 'Gorditas';
     font-size: 22px;
-    background: -webkit-linear-gradient( white, rgb(223, 74, 29), rgb(246, 250, 8), rgb(236, 5, 5));
+    background: #c72e08d2;  /* fallback for old browsers */
+    background: -webkit-linear-gradient( black 30%, rgb(223, 74, 29), rgb(45, 11, 88), rgb(236, 5, 5));
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
@@ -12,8 +13,14 @@ h1, footer {
 main section {
     margin-left: 25px;
     text-align: center;
-    background: radial-gradient(circle, rgb(232, 240, 225) 20%, rgb(17, 118, 233) 55%, rgb(95, 112, 116) 100%);
-}
+    background: #5f2c82;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to top, #49a09d, #5f2c82);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to top, #49a09d, #5f2c82); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    
+
+
+    }
 
 
 /*background-image: linear-gradient (green, yellow, blue);
