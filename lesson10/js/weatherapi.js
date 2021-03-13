@@ -11,6 +11,3 @@ fetch(apiURL)
     document.getElementById('icon').setAttribute('alt',desc);  
     document.getElementById('current-temp').textContent = jsObject.main.temp;
     });
-
-    
-   
