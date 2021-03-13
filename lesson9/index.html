@@ -1,23 +1,23 @@
 <!doctype html>
 <html lang="en">
 <head>
-<meta charset="utf-8">
-
-<title>My Weather Site</title>
-<link rel="Shortcut Icon" href="favicon.ico">
-<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-<link href="https://fonts.googleapis.com/css2?family=Gorditas&family=Hachi+Maru+Pop&family=Lobster+Two&display=swap" rel="stylesheet">
-<link rel="preconnect" href="https://fonts.gstatic.com">
-<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-
-<!-- STYLE SHEETS -->
-<link href="css/normalize.css" rel="stylesheet">
-<!-- phone-default -->
-<link href="css/small.css" rel="stylesheet">
-<!-- enhance-tablet -->
-<link href="css/medium.css" rel="stylesheet">
-<!-- enhance-desktop -->
-<link href="css/large.css" rel="stylesheet">
+  <meta charset="utf-8">
+  <title>My Weather Site</title>
+  <link rel="Shortcut Icon" href="favicon.ico">
+  <link href="https://fonts.googleapis.com/css2?family=Gorditas&family=Hachi+Maru+Pop&family=Lobster+Two&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <meta name="description" content="A weather forecasting 3 towns">
+  <meta name="author" content="Fabiola Juarez">
+  <title>Home | Weather</title>     
+  <!-- STYLE SHEETS -->
+  <link href="css/normalize.css" rel="stylesheet">
+  <!-- phone-default -->
+  <link href="css/small.css" rel="stylesheet">
+  <!-- enhance-tablet -->
+  <link href="css/medium.css" rel="stylesheet">
+  <!-- enhance-desktop -->
+  <link href="css/large.css" rel="stylesheet">
 </head>
 
 <body>
@@ -31,7 +31,7 @@
         </section>    
   </header>
        
-    <nav class="clearfix">
+  <nav class="clearfix">
         <button onclick="toggleMenu()">&#9776;</button> 
         <div class="menu"> 
           <ul id="primaryNav" class="hide">
@@ -43,7 +43,7 @@
               <li><a href="/lesson7/gallery-7.html">Gallery</a></li>    
           </ul>
         </div>
-    </nav>
+  </nav>
         
     <main class="clearfix">
         <h2>Home Weather Site</h2>
@@ -57,9 +57,10 @@
           </picture>   
        </div>
        
-      <div class="cards" id="cards">
-      </div>
-   
+      
+       <div class="cards" id="cards"></div>
+      
+
         <h2>Come and visit us</h2><br>
         <article class="visitus">
             <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Soluta aspernatur quo numquam 
@@ -86,30 +87,11 @@
             </a>
           </div>
        </div>
-         
-       
     </main>
     
     <footer>
         &copy; 2021 | Fabiola Juarez | Date: <span id="currentdate"></span>
-    </footer>
-
-
- <script>
-    const today = new Date();
-    console.log(today);
-
-    const dayNumber = today.getDate();
-    console.log(dayNumber);
-    
-    const element = document.getElementById("message");
-    
-    if (dayNumber == 6) {
-        element.classList.add("showme");
-    } else {
-        element.classList.add("hideme");
-    }
- </script>  
+    </footer> 
 
 <script src="js/currentdate.js"></script>    
 <script src="js/scripts.js"></script>
