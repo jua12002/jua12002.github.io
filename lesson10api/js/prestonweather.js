@@ -7,7 +7,7 @@ fetch(apiURL)
     document.getElementById('place').innerHTML=weatherInfo.name;
     document.getElementById('currentTemp').innerHTML=weatherInfo.main.temp;
     document.getElementById('tempmax').innerHTML=weatherInfo.main.temp_max;
-    document.getElementById('humidity').innerHTML=weatherInfo.humidity;
+    document.getElementById('humidity').innerHTML=weatherInfo.main.humidity;
     document.getElementById('windSpeed').innerHTML=weatherInfo.wind.speed;
 
     let temperature=parseFloat(document.getElementById('currentTemp').innerHTML);
