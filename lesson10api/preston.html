@@ -59,7 +59,7 @@
               <h2>Weather Summary</h2>
               <p>Town: <span id="place"></span></p>
               <p>Temperature is: <span id="currentTemp"></span>&deg;F</p>
-              <p>High: <span id="temp-max"></span>&deg;F</p>
+              <p>High: <span id="tempmax"></span>&deg;F</p>
               <p>Humidity is: <span id="humidity"></span>%</p>
               <p>Wind Speed is: <span id="windSpeed"></span>mph</p>
               <p>windchill: <span id="chill"></span></p>
@@ -67,7 +67,7 @@
 
        </div>
            
-        <h2 class="forecastTitle">5 Days Forecast</h2>
+        <h2>5 Days Forecast</h2>
         <section class="forecast">
 
           <div>
@@ -165,7 +165,6 @@
       +windchill+"\xB0F";
     } else {
       document.getElementById("chill").textContent = "No Wind Chill Today";
-
     }
  </script>
 

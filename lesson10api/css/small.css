@@ -88,6 +88,7 @@ h2 {
     color: #000702;
     margin: 0 0 0 17px;
     font-family: 'Gorditas', cursive;
+    padding: 5px 0;
 }
 
 .herodiv {
@@ -107,7 +108,7 @@ h2 {
 
 .summary {
     position: absolute;
-    top: 95px;
+    top: 40px;
     left: 55px;
     background: radial-gradient(#eee, #f0e009);
 	border: 1px solid #000;

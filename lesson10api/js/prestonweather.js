@@ -6,7 +6,7 @@ fetch(apiURL)
     console.log(weatherinfo);
     document.getElementById('place').innerHTML=weatherInfo.name;
     document.getElementById('currentTemp').innerHTML=weatherInfo.main.temp;
-    document.getElementById('temp-max').innerHTML=weatherInfo.main.temp_max;
+    document.getElementById('tempmax').innerHTML=weatherInfo.main.temp_max;
     document.getElementById('humidity').innerHTML=weatherInfo.humidity;
     document.getElementById('windSpeed').innerHTML=weatherInfo.wind.speed;
 
