@@ -49,11 +49,11 @@ fetch(apiURL)
 
     });
 
-/*
+/*---5 Days weather---*/
 
-
-const d = new Date();
-const todayDayNumber=d.getDay();
+const weatherDate = new Date();
+const weatherDay = weatherDate.getDay();
+let forecastDayNumber = weatherDay;
 const weekday = new Array(7);
 weekday[0]="Sunday";
 weekday[1]="Monday";
@@ -63,8 +63,14 @@ weekday[4]="Thursday";
 weekday[0]="Friday";
 weekday[0]="Saturday";
 
+const apiURL = "//api.openweathermap.org/data/2.5/weather?id=5604473&appid=79ecb9ae3225480c66f41a9ccbe4878b&units=imperial";
+const renderForecastCard = (forecastdata, dayofweek) => {
+ 
+let cards = 
 
 
+
+}
 
 
 document.getElementById("townName").textContent=weatherinfo.city.name;
