@@ -19,6 +19,12 @@
         font-size: 3.6rem; 
     }
 
+    
+    h2 {
+    
+    padding: 5px 0;
+}
+
     .m  {
         font-style: initial;
         font-size: x-large;
