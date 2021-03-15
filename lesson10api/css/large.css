@@ -1,5 +1,12 @@
 /* 64em is also 1028px when basefont is 16px */
 @media only screen and (min-width: 1028px) {
+
+    section.forecast {
+        display: grid;
+        grid-template-columns: 1f 1f 1f 1f 1f;
+        text-align: center;
+        background-color: rgb(173, 242, 252);
+    }
    
     nav {
         background: #b4e391; 
@@ -21,9 +28,8 @@
 
     
     h2 {
-    
     padding: 5px 0;
-}
+    }
 
     .m  {
         font-style: initial;
@@ -75,10 +81,5 @@ section.forecast div h5 {
     margin: 0;
     padding: 1rem 0;
 }
-
-section.forecast {
-    display: grid;
-    grid-template-columns: 1f 1f 1f 1f 1f;
-}
-    
+   
 }  /* end large */

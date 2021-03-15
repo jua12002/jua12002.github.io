@@ -3,6 +3,7 @@
         max-width: 64rem;
         margin: auto;  
     }
+
 }
 
 main {max-width:820px;margin:0 auto;}
@@ -215,29 +216,20 @@ footer {
     clear: both;
 }
 
-section.forecast {
-    display: grid;
-    grid-template-columns: 1f;
-    text-align: center;
-    border: 1px solid green;
-    background-color: rgb(173, 242, 252);
-
-}
-
 h5 {
     text-align: center;
     color: #000702;
-    margin: 0 0 0 17px;
     font-family: 'Gorditas', cursive;
     padding: 5px 0;
     background-color: rgb(218, 243, 180);
 }
 
-/*
-forecast {
-    
-    border: 1px solid green;
-    background-color: rgb(218, 243, 180);
-    margin: 0;
-    padding: 1rem 0;
-}*/
+
+.forecast {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 10px;
+    background-color: rgb(173, 242, 252);
+    padding: 10px;       
+    text-align: center;
+}
