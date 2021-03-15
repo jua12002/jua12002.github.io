@@ -69,5 +69,10 @@ section.forecast div h5 {
     margin: 0;
     padding: 1rem 0;
 }
+
+section.forecast {
+    display: grid;
+    grid-template-columns: 1f 1f 1f 1f 1f;
+}
     
 }  /* end large */
