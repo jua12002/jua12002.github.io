@@ -228,7 +228,11 @@ article:nth-child(odd) {
 	flex-direction: row-reverse;
 }
 
-img {border:1px solid #000080; width: 100%; height: auto;}
+img {
+    /*border:1px solid #000080; */
+    width: 100%; 
+    height: auto;}
+    
 .data {background-color:#000; color:#fff;}
 
  /*Town*/
