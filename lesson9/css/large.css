@@ -1,17 +1,15 @@
 /* 64em is also 1028px when basefont is 16px */
 @media only screen and (min-width: 1028px) {
    
-    .cards {
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
-    }
+   
+   
+   
+   
+ 
 
-    
-.cards section:nth-child(odd) img {
-    grid-column: 3;
-    grid-row: 1;
-}
-    
+
+
+   
     nav {
         background: #43cea2;  /* fallback for old browsers */
         background: -webkit-linear-gradient(to bottom, #3f98f1, #43cea2);  /* Chrome 10-25, Safari 5.1-6 */
@@ -78,5 +76,22 @@ section.forecast div h5 {
     margin: 0;
     padding: 1rem 0;
 }
-    
+   
+ 
+#cards div {
+    display: block;
+}
+
+
+#cards div:nth-child(odd) {
+    flex-direction: column;
+}
+
+
+.cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+
 }  /* end large */

@@ -9,7 +9,7 @@ fetch(requestURL)
         const towns = jsonObject['towns'];
 
         for (let i = 0; i < towns.length; i++) {
-            if (i == 1 || i == 5 || i == 6) {
+            if (towns[i].name == "Soda Springs" || towns[i].name == "Preston" || towns[i].name == "Fish Haven") {
                 let card = document.createElement('div');
                 let info = document.createElement('section');
                 let photo = document.createElement('figure');
@@ -19,16 +19,26 @@ fetch(requestURL)
                 let people = document.createElement('p');
                 let rain = document.createElement('p');
                 let image = document.createElement('img');
+                let link = document.createElement('a');
 
-                name.textContent = towns[i].name;
+
+                link.textContent = towns[i].name;
                 motto.textContent = towns[i].motto;
                 date.textContent = 'Year Founded: ' + towns[i].yearFounded;
                 people.textContent = 'Population: ' + towns[i].currentPopulation;
                 rain.textContent = 'Annual Rain Fall: ' + towns[i].averageRainfall;
                 image.setAttribute('src', 'images/'+towns[i].photo);
                 image.setAttribute('alt', towns[i].name + ' Hometown');
+                let srcLink = "";
+                if (towns[i].name == "Soda Springs") 
+                    srcLink = "sodasprings.html";
+                if (towns[i].name == "Preston"  )
+                    srcLink = "/lesson10api/preston.html";
+                if (towns[i].name == "Fish Haven")
+                    srcLink = "fishheaven.html";
 
-                
+                link.setAttribute('href',srcLink );
+                name.appendChild(link);
                 photo.appendChild(image);
                 card.appendChild(photo);
 

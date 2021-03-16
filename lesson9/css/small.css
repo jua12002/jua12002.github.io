@@ -233,7 +233,6 @@ img {border:1px solid #000080; width: 100%; height: auto;}
 
  /*Town*/
 #cards img{
-    padding: 15px;
     width:300px;
     box-shadow: 0 4px 8px 0 rgba(29, 28, 28, 0.5);
 }
