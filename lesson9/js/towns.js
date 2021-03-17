@@ -31,11 +31,11 @@ fetch(requestURL)
                 image.setAttribute('alt', towns[i].name + ' Hometown');
                 let srcLink = "";
                 if (towns[i].name == "Soda Springs") 
-                    srcLink = "sodasprings.html";
+                    srcLink = "/sodaspring/sodasprings.html";
                 if (towns[i].name == "Preston"  )
                     srcLink = "/lesson10api/preston.html";
                 if (towns[i].name == "Fish Haven")
-                    srcLink = "fishheaven.html";
+                    srcLink = "/fishhaven/fishhaven.html";
 
                 link.setAttribute('href',srcLink );
                 name.appendChild(link);
