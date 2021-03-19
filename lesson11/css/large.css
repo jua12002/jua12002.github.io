@@ -1,0 +1,97 @@
+/* 64em is also 1028px when basefont is 16px */
+@media only screen and (min-width: 1028px) {
+   
+   
+   
+   
+   
+ 
+
+
+
+   
+    nav {
+        background: #43cea2;  /* fallback for old browsers */
+        background: -webkit-linear-gradient(to bottom, #3f98f1, #43cea2);  /* Chrome 10-25, Safari 5.1-6 */
+        background: linear-gradient(to bottom, #4c9dee, #43cea2); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+         }
+
+    nav button {display: none;}
+
+    header img {
+        max-width: 100%;
+    }
+    
+    .headings h1 {
+        font-size: 3.6rem; 
+    }
+
+    .m  {
+        font-style: initial;
+        font-size: x-large;
+        letter-spacing: 2pt;
+        color: rgb(7, 5, 1);
+        margin-left: 20px;
+        max-width: 100%;
+    }
+
+    nav .menu ul.hide {display: block;}
+    nav .menu ul {
+        margin-left: 2%;
+        flex-direction: row;
+    }
+    nav .menu ul li {
+        float: left;
+    }
+
+    nav .menu ul li a {
+        border:springgreen;
+        border-right: 1px solid rgba(0,0,0,0.3);
+        padding: .6rem 1rem;
+        
+        flex-direction: column;
+    }
+
+
+    picture.myphotoA {
+        display: block;
+        width: 90%;
+        height: auto;
+        margin: 0 2%;
+        align-content: center;
+    }
+    
+    main picture.myphotoB img {width: 100%; }
+
+section.forecast {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
+section.forecast div {
+    text-align: center;
+    border: 1px solid green;
+}
+section.forecast div h5 {
+    background-color: rgb(218, 243, 180);
+    margin: 0;
+    padding: 1rem 0;
+}
+   
+ 
+#cards div {
+    display: block;
+}
+
+
+#cards div:nth-child(odd) {
+    flex-direction: column;
+}
+
+
+.cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+
+}  /* end large */

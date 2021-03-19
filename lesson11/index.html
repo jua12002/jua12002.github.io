@@ -1,0 +1,105 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>3 Towns Weather Site</title>
+  <link rel="Shortcut Icon" href="favicon.png">
+  <link href="https://fonts.googleapis.com/css2?family=Gorditas&family=Hachi+Maru+Pop&family=Lobster+Two&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <meta name="description" content="A weather forecasting 3 towns">
+  <meta name="author" content="Fabiola Juarez">
+  <!-- STYLE SHEETS -->
+  <link href="css/normalize.css" rel="stylesheet">
+  <!-- phone-default -->
+  <link href="css/small.css" rel="stylesheet">
+  <!-- enhance-tablet -->
+  <link href="css/medium.css" rel="stylesheet">
+  <!-- enhance-desktop -->
+  <link href="css/large.css" rel="stylesheet">
+</head>
+
+<body>
+	<header>
+        <picture>
+        <img class="logo" src="images/3townsweatherlogo.jpg" alt="3 Towns">
+        </picture>
+        <section class="headings">
+          <h1>Your Weather</h1>
+          <div class="m">Get the weather forecast for today and the next 5 days</div>
+        </section>    
+  </header>
+       
+  <nav class="clearfix">
+        <button onclick="toggleMenu()">&#9776;</button> 
+        <div class="menu"> 
+          <ul id="primaryNav" class="hide">
+              <li class="active"><a href="/lesson11/index.html">Home</a></li>
+              <li><a href="/lesson10api/preston.html">Preston</a></li>
+              <li><a href="/sodaspring/sodasprings.html">Soda Springs</a></li>
+              <li><a href="/fishhaven/fishhaven.html">Fish Haven</a></li>
+              <li><a href="/lesson8/stormcenter.html">Storm Center</a></li>
+              <li><a href="/lesson7/gallery-7.html">Gallery</a></li>    
+          </ul>
+        </div>
+  </nav>
+        
+    <main class="clearfix">
+        <h2>Home Weather Site</h2>
+        <div class="herodiv">
+          <picture class="myphotoA">
+              <source media="(max-width: 200px)" srcset="images/hero200small.jpg">
+              <source media="(max-width: 400px)" srcset="images/hero400small.jpg">
+              <source media="(max-width: 800px)" srcset="images/hero800medium.jpg">
+              <img src="images/hero1100.jpg" alt="hero">
+    
+          </picture>   
+       </div>
+       
+      
+       <div class="cards" id="cards"></div>
+      
+
+        <h2>Come and visit us</h2><br>
+        <article class="visitus">
+            <p>Idaho is a mountainous state in the northwest United States with large swaths of preserved 
+              wilderness and outdoor recreation areas. Boise, Idaho's capital, is nestled in the foothills 
+              of the Rocky Mountains and is separated by the Boise River, which is famous for rafting and 
+              fishing. Julia Davis Park, on the city's riverfront, is a downtown green space with a rose 
+              garden, museums, and a zoo. <br> <br>
+
+              
+              sledding, climbing snowy mountains, excursions, ice skating and of course enjoying the resort 
+              or the small towns around with its variety of b & b.</p>
+            <img class="visitusimg" src="/lesson11/images/idaho.jpg" alt="Idaho">
+        </article>
+   
+        <h2>Contact Us</h2>
+        <div class="contact">
+          <div>
+            <h4>ADDRESS: </h4>
+            <p>The Weather Center</p>
+            <p>123 Main Street,  </p>
+            <p>Franklin, MI 87654</p>
+          </div>
+          <div>
+            <h4>PHONE: </h4> <p>123-456-7890</p>
+            <h4>EMAIL: </h4> <p>abdcedfh@idaho.com</p>
+          </div>
+          <div>
+            <a href="https://www.google.com/maps/place/Idaho,+USA/@45.4063678,-118.6336063,6z/data=!3m1!4b1!4m5!3m4!1s0x5358ffa885e499e9:0xd06b300515f78758!8m2!3d44.0682019!4d-114.7420408">
+              <img class="map" src="/lesson11/images/idahomap.jpg" alt="Idaho map">
+            </a>
+          </div>
+       </div>
+    </main>
+    
+    <footer>
+        &copy; 2021 | Fabiola Juarez | Date: <span id="currentdate"></span>
+    </footer> 
+
+<script src="js/currentdate.js"></script>    
+<script src="js/scripts.js"></script>
+<script src="js/towns.js"></script>
+</body>
+</html>
