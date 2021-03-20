@@ -1,15 +1,7 @@
 /* 64em is also 1028px when basefont is 16px */
 @media only screen and (min-width: 1028px) {
    
-   
-   
-   
-   
- 
-
-
-
-   
+     
     nav {
         background: #43cea2;  /* fallback for old browsers */
         background: -webkit-linear-gradient(to bottom, #3f98f1, #43cea2);  /* Chrome 10-25, Safari 5.1-6 */

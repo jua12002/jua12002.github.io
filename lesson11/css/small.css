@@ -261,12 +261,18 @@ img {
 .visitus {
     text-align: left;
     font-size:larger;
-    padding: 10px;
+    padding: 20px;
+
 }
 
 
-.visitusimg {
+.visitus.visitusimg {
     float: left;
-    padding: 10px;
+    padding: 20px;   
+    height: auto;
+    margin: 0 50%; 
+
     max-width: 100%;
+    height: auto;
+
     }
