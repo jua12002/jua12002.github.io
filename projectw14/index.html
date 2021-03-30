@@ -38,59 +38,73 @@
               <li class="active"><a href="/projectw14/index.html">Winnipeg</a></li>
               <li><a href="/projectw14/join.html">Join</a></li>
               <li><a href="/projectw14/directory.html">Directory</a></li>
-              <li><a href="/projectw14/contact.html">Contact</a></li>
+              <li><a href="/projectw14/contactus.html">Contact</a></li>
           </ul>
         </div>
   </nav>
         
     <main class="clearfix">
-        <h2>Belonging to our Chamber of Commerce helps your company in many aspects</h2>
+        <h2>Let the Chamber of Commerce help your company to get success.</h2>
         <div class="herodiv">
           <picture class="myphotoA">
-              <source media="(max-width: 200px)" srcset="images/hero200small.jpg">
-              <source media="(max-width: 400px)" srcset="images/hero400small.jpg">
-              <source media="(max-width: 800px)" srcset="images/hero800medium.jpg">
-              <img src="/projectw14/images/winnipeghero1100.jpg" alt="wpghero">
-          </picture>   
-       </div>
+              <source media="(max-width: 200px)" srcset="images/herowpg200.jpg">
+              <source media="(max-width: 400px)" srcset="images/herowpg400.jpg">
+              <source media="(max-width: 800px)" srcset="images/herowpg800.jpg">
+              <img src="/projectw14/images/herowpg1100.jpg" alt="wpghero">
+          </picture>
+        
+          <div class="summary">
+            <h2>Current Weather in</h2>
+            <h2><span id="place"></span></h2>
+            <p>Temperature is: <span id="currentTemp"></span>&deg;F</p>
+            <p>High: <span id="tempmax"></span>&deg;F</p>
+            <p>Humidity is: <span id="humidity"></span>%</p>
+            <p>Wind Speed is: <span id="windSpeed"></span>mph</p>
+            <p>Windchill: <span id="chill"></span></p>
+          </div>
+        </div>
        
-      
-       <div class="cards" id="cards"></div>
-      
+       <br><br><br>
+       <div class="cards" id="cards"></div>    
+       
+  
+  <h2 class="forecast_title">5 Days Forecast</h2>
+    <section class="forecast">
 
-        <h2>Come and visit us</h2><br>
-        <article class="visitus">
-              <p>Idaho is a mountainous state in the northwest United States with large swaths of preserved 
-              wilderness and outdoor recreation areas. Boise, Idaho's capital, is nestled in the foothills 
-              of the Rocky Mountains and is separated by the Boise River, which is famous for rafting and 
-              fishing. Julia Davis Park, on the city's riverfront, is a downtown green space with a rose 
-              garden, museums, and a zoo. <br> <br>
+      <div>
+        <h5><span id="dayofweek1"></span></h5>
+        <img id="icon1" src="https://github.com/jua12002/lesson10api/images/placeholder.png?raw=true" alt="holder">  
+        <p><span id="forecast1"></span>&#8457;</p>
+      </div>
 
-              
-              Come and have fun, sledding, climbing snowy mountains, excursions, ice skating and of course enjoying the resort 
-              or the small towns around with its variety of B & B.</p>
-              
-              <img class="visitusimg" src="/lesson11/images/idaho.jpg" alt="Idaho">
-        </article>
-   
-        <h2>Contact Us</h2>
-        <div class="contact">
-          <div>
-            <h4>ADDRESS: </h4>
-            <p>100 Main Street</p>
-            <p>Winnipeg, MB</p>
-            <p>Central Office</p>
-          </div>
-          <div>
-            <h4>PHONE: </h4> <p>123-456-7890</p>
-            <h4>EMAIL: </h4> <p>ccwinnipeg@cc.com</p>
-          </div>
-          <div>
-            <a href="https://www.google.ca/maps/place/Winnipeg,+MB/@49.8539255,-97.4331045,10z/data=!3m1!4b1!4m5!3m4!1s0x52ea73fbf91a2b11:0x2b2a1afac6b9ca64!8m2!3d49.895136!4d-97.1383744">
-              <img class="map" src="/projectw14/images/wpgmap.jpg" alt="Winnipeg map">
-            </a>
-          </div>
-       </div>
+      <div>
+        <h5><span id="dayofweek2"></span></h5>
+        <img id="icon2" src="https://github.com/jua12002/lesson10api/images/placeholder.png?raw=true" alt="holder">  
+        <p><span id="forecast2"></span>&#8457;</p>
+      </div>
+
+      <div>
+        <h5><span id="dayofweek3"></span></h5>
+        <img id="icon3" src="https://github.com/jua12002/lesson10api/images/placeholder.png?raw=true" alt="holder">  
+        <p><span id="forecast3"></span>&#8457;</p>
+      </div>
+
+      <div>
+        <h5><span id="dayofweek4"></span></h5>
+        <img id="icon4" src="https://github.com/jua12002/lesson10api/images/placeholder.png?raw=true" alt="holder">  
+        <p><span id="forecast4"></span>&#8457;</p>
+      </div>
+
+      <div>
+        <h5><span id="dayofweek5"></span></h5>
+        <img id="icon5" src="https://github.com/jua12002/lesson10api/images/placeholder.png?raw=true" alt="holder">  
+        <p><span id="forecast5"></span>&#8457;</p>
+      </div>
+    </section>
+    
+    <div class="events" id="events"></div>
+    
+    
     </main>
     
     <footer>
@@ -99,6 +113,7 @@
 
 <script src="js/currentdate.js"></script>    
 <script src="js/scripts.js"></script>
-<script src="js/towns.js"></script>
+<script src="js/events.js"></script>
+<script src="js/weatherapi.js"></script>
 </body>
 </html>

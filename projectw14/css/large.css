@@ -1,9 +1,9 @@
 /* 64em is also 1028px when basefont is 16px */
 @media only screen and (min-width: 1028px) {
    
-     
+/*  red #cc2c0b, blue #110066, yellow #FFD432, white #FFFFFF, grey #919191 */  
     nav {
-        background:  #CC2C0B;  
+        background:  #cc2c0b;  
      }
 
     nav button {display: none;}
@@ -35,8 +35,8 @@
     }
 
     nav .menu ul li a {
-        border:springgreen;
-        border-right: 1px solid rgba(0,0,0,0.3);
+        border: #cc2c0b;
+        border-right: 1px solid #110066;
         padding: .6rem 1rem;
         flex-direction: column;
     }
@@ -58,10 +58,10 @@ section.forecast {
 }
 section.forecast div {
     text-align: center;
-    border: 1px solid green;
+    border: 1px solid #110066;
 }
 section.forecast div h5 {
-    background-color: rgb(218, 243, 180);
+    background-color: #FFD432;
     margin: 0;
     padding: 1rem 0;
 }

@@ -23,7 +23,7 @@ main picture.myphotoB img {width: 100%;}
 main picture.myphotoA div, main picture.photoB div {
     text-align: center;
     font-weight: 500;
-    color: #d0aa94;
+    color: #FFD432;
 }
 
 picture.myphotoB {
@@ -35,13 +35,13 @@ picture.myphotoB {
 
 
 body {
-    background-color: #fff;
+    background-color: #FFFFFF;
     padding: 0;
     margin: 0;
 }
 
 header {
-    background-color: #fff;
+    background-color: #FFFFFF;
     padding: 5px 0;
     display: flex;
     align-content: center;
@@ -78,7 +78,7 @@ header img {
 
 h2 {
     text-align: center;
-    color: #000702;
+    color: #080808;
     /*margin: 0 0 0 17px;*/
     font-family: 'Gorila', cursive;
 }
@@ -92,26 +92,26 @@ h2 {
 
 .hero_ph {
     margin:1px auto;
-    background-color: greenyellow;
-    border: 1px solid green;
+    background-color: #FFD432;
+    border: 1px solid #110066;
     width: 92%;
     height: 280px;
 }
 
 .summary {
     position: absolute;
-    top: 95px;
+    top: 85px;
     left: 55px;
-    background: radial-gradient(#eee, #f0e009);
-	border: 1px solid #000;
+    background: radial-gradient(#FFFFFF, #FFD432);
+	border: 1px solid #080808;
     padding: .5rem;
-    box-shadow: 0 0 10px #777;
+    box-shadow: 0 0 10px #110066;
     opacity: .8;
 }
 
 .mid_ph {
     margin:1px;
-    border: 1px solid green;
+    border: 1px solid #110066;
     float: right;
     max-width: 30%;
     height: auto;
@@ -120,16 +120,13 @@ h2 {
 nav button {
     border: none;
     font-size: 1.6rem;
-    color: rgb(59, 248, 106);
+    color: #FFD342;
     float: right;
 }
 
 
 nav .menu ul {
-    background: #43cea2;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to bottom, #3f98f1, #43cea2);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to bottom, #4c9dee, #43cea2); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */        
-
+    background: #CC2C0B;  /* fallback for old browsers */
     font-family: 'Gorila', cursive;
     display: flex;
     flex-direction: column;
@@ -155,13 +152,13 @@ nav .menu ul li a {
     border-top: 1px solid rgba(0,0,0,0.3);
 }
 
-nav .menu ul li.active a{background-color: rgba(0,0,0,0.2); color: #fff;}
+nav .menu ul li.active a{background-color: #110066; color: #FFFFFF;}
 
-nav .menu ul li a:hover {background-color: rgba(0,0,0,0.4);}
+nav .menu ul li a:hover {background-color: #110066;}
 
 nav .menu ul.hide {display: none;}
 
-div#message {background-color: yellow;}
+div#message {background-color:  #FFD432;}
 div.showme{display: block;}
 div.hideme{display: none;}
 
@@ -192,9 +189,9 @@ footer {
     color: white;
     text-align: center;
     padding: 1rem 2%;
-    background: #43cea2;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to bottom, #3f98f1, #43cea2);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to bottom, #4c9dee, #43cea2); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */        
+    background: #CC2C0B;  /* fallback for old browsers */
+    background:  #FFD432;  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to bottom, #FFFFFF, #CC2C0B); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */        
 } 
 
 .contentbox { 
@@ -202,8 +199,8 @@ footer {
     margin: 10px auto;
     border: 1px dashed grey;
     padding: 15px;
-    background-color: rgb(233, 248, 211);
-    color: green
+    background-color: #FFFFFF;
+    color: #110066
 }
 
 .clearfix:after{
