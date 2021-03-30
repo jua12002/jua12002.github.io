@@ -126,6 +126,16 @@ h2 {
     font-family: 'Gorditas', cursive;
 }
 
+.events {
+    background: radial-gradient(rgb(66, 126, 238), #6eeca7);
+	border: 2px springgreen #000;
+    padding: .10rem;
+    box-shadow: 0 0 10px rgb(25, 3, 104);
+    opacity: .8;
+    font-family: 'Gorditas', cursive;
+    font-size: small;
+}
+
 .mid_ph {
     margin:1px;
     border: 1px solid green;

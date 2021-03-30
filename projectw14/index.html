@@ -1,0 +1,104 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Chamber of Commerce Winnipeg</title>
+  <link rel="Shortcut Icon" href="favicon.ico">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Chango&display=swap" rel="stylesheet">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <meta name="description" content="Chamber of Commerce Winnipeg">
+  <meta name="author" content="Fabiola Juarez">
+  <!-- STYLE SHEETS -->
+  <link href="css/normalize.css" rel="stylesheet">
+  <!-- phone-default -->
+  <link href="css/small.css" rel="stylesheet">
+  <!-- enhance-tablet -->
+  <link href="css/medium.css" rel="stylesheet">
+  <!-- enhance-desktop -->
+  <link href="css/large.css" rel="stylesheet">
+</head>
+
+<body>
+	<header>
+        <picture>
+            <img class="logo" src="/projectw14/cclogo.jpg" alt="CCW">
+        </picture>
+        <section class="headings">
+            <h1>Chamber of</h1>
+            <h1>Commerce</h1>
+            <h1>Winnipeg</h1>
+        </section>     
+  </header>
+       
+  <nav class="clearfix">
+        <button onclick="toggleMenu()">&#9776;</button> 
+        <div class="menu"> 
+          <ul id="primaryNav" class="hide">
+              <li class="active"><a href="/projectw14/index.html">Winnipeg</a></li>
+              <li><a href="/projectw14/join.html">Join</a></li>
+              <li><a href="/projectw14/directory.html">Directory</a></li>
+              <li><a href="/projectw14/contact.html">Contact</a></li>
+          </ul>
+        </div>
+  </nav>
+        
+    <main class="clearfix">
+        <h2>Belonging to our Chamber of Commerce helps your company in many aspects</h2>
+        <div class="herodiv">
+          <picture class="myphotoA">
+              <source media="(max-width: 200px)" srcset="images/hero200small.jpg">
+              <source media="(max-width: 400px)" srcset="images/hero400small.jpg">
+              <source media="(max-width: 800px)" srcset="images/hero800medium.jpg">
+              <img src="/projectw14/images/winnipeghero1100.jpg" alt="wpghero">
+          </picture>   
+       </div>
+       
+      
+       <div class="cards" id="cards"></div>
+      
+
+        <h2>Come and visit us</h2><br>
+        <article class="visitus">
+              <p>Idaho is a mountainous state in the northwest United States with large swaths of preserved 
+              wilderness and outdoor recreation areas. Boise, Idaho's capital, is nestled in the foothills 
+              of the Rocky Mountains and is separated by the Boise River, which is famous for rafting and 
+              fishing. Julia Davis Park, on the city's riverfront, is a downtown green space with a rose 
+              garden, museums, and a zoo. <br> <br>
+
+              
+              Come and have fun, sledding, climbing snowy mountains, excursions, ice skating and of course enjoying the resort 
+              or the small towns around with its variety of B & B.</p>
+              
+              <img class="visitusimg" src="/lesson11/images/idaho.jpg" alt="Idaho">
+        </article>
+   
+        <h2>Contact Us</h2>
+        <div class="contact">
+          <div>
+            <h4>ADDRESS: </h4>
+            <p>100 Main Street</p>
+            <p>Winnipeg, MB</p>
+            <p>Central Office</p>
+          </div>
+          <div>
+            <h4>PHONE: </h4> <p>123-456-7890</p>
+            <h4>EMAIL: </h4> <p>ccwinnipeg@cc.com</p>
+          </div>
+          <div>
+            <a href="https://www.google.ca/maps/place/Winnipeg,+MB/@49.8539255,-97.4331045,10z/data=!3m1!4b1!4m5!3m4!1s0x52ea73fbf91a2b11:0x2b2a1afac6b9ca64!8m2!3d49.895136!4d-97.1383744">
+              <img class="map" src="/projectw14/images/wpgmap.jpg" alt="Winnipeg map">
+            </a>
+          </div>
+       </div>
+    </main>
+    
+    <footer>
+        &copy; 2021 | Fabiola Juarez | Date: <span id="currentdate"></span>
+    </footer> 
+
+<script src="js/currentdate.js"></script>    
+<script src="js/scripts.js"></script>
+<script src="js/towns.js"></script>
+</body>
+</html>
