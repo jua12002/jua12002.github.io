@@ -3,28 +3,28 @@
     {
         "Place": "Human Right Museum",
         "Address": "175 Hargrave St",
-        "Event": "Stretch your body and mind at the CMHR",
+        "Activity": "Stretch your body and mind at the CMHR",
         "Date": "April, 11",
         "time": "11AM-5PM"
     },
     {
         "Place": "Aunt Sallys Farm is now open",
         "Address": "1254 La Salle St.",
-        "Event": "One of the Zoo’s most beloved attractions returns!",
+        "Activity": "One of the Zoo’s most beloved attractions returns!",
         "Date": "April, 17",
         "time": "9AM-4PM"
     },
     {
         "Place": "Aunt Sally's Farm is now open",
         "Address": "1254 La Salle St.",
-        "Event": "One of the Zoo’s most beloved attractions returns!",
+        "Activity": "One of the Zoo’s most beloved attractions returns!",
         "Date": "April, 17",
         "time": "9AM-4PM"
     },
     {
         "Place": "Winnipeg Contemporary Art Gallery",
         "Address": "163 Clare Ave.",
-        "Event": "The world is already taking note of Qaumajuq",
+        "Activity": "The world is already taking note of Qaumajuq",
         "Date": "April, 19-30",
         "time": "1PM-7PM"
    }

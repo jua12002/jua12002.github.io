@@ -1,4 +1,5 @@
-const requestURL = 'https://byui-cit230.github.io/weather/data/towndata.json';
+//const requestURL
+const requestURL = 'https://jua12002.github.io/projectw14/data/events.json';
 
 fetch(requestURL)
     .then(function (response) {
@@ -9,7 +10,7 @@ fetch(requestURL)
         const towns = jsonObject['towns'];
 
         for (let i = 0; i < towns.length; i++) {
-            if (towns[i].name == "Soda Springs" || towns[i].name == "Preston" || towns[i].name == "Fish Haven") {
+            //if (towns[i].name == "Soda Springs" || towns[i].name == "Preston" || towns[i].name == "Fish Haven") {
                 let card = document.createElement('div');
                 let info = document.createElement('section');
                 let photo = document.createElement('figure');
@@ -18,21 +19,17 @@ fetch(requestURL)
                 let date = document.createElement('p');
                 let people = document.createElement('p');
                 let rain = document.createElement('p');
-                let eve= document.createElement('p');
                 let image = document.createElement('img');
                 let link = document.createElement('a');
 
 
-                link.textContent = towns[i].name;
+                link.textContent = towns[i].place;
                 motto.textContent = towns[i].motto;
-                date.textContent = 'Year Founded: ' + towns[i].yearFounded;
-                people.textContent = 'Population: ' + towns[i].currentPopulation;
+                date.textContent = 'Date: ' + towns[i].Date;
+                people.textContent = 'Address: ' + towns[i].currentPopulation;
                 rain.textContent = 'Annual Rain Fall: ' + towns[i].averageRainfall;
                 image.setAttribute('src', 'images/'+towns[i].photo);
                 image.setAttribute('alt', towns[i].name + ' Hometown');
-
-                eve.textContent = 'Events: ' + towns[i].events;
-               
                 let srcLink = "";
                 if (towns[i].name == "Soda Springs") 
                     srcLink = "/sodaspring/sodasprings.html";

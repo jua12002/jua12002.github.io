@@ -18,6 +18,7 @@ fetch(requestURL)
                 let date = document.createElement('p');
                 let people = document.createElement('p');
                 let rain = document.createElement('p');
+                let todo = document.createElement('h3');
                 let image = document.createElement('img');
                 let link = document.createElement('a');
 
@@ -27,8 +28,14 @@ fetch(requestURL)
                 date.textContent = 'Year Founded: ' + towns[i].yearFounded;
                 people.textContent = 'Population: ' + towns[i].currentPopulation;
                 rain.textContent = 'Annual Rain Fall: ' + towns[i].averageRainfall;
+
+                todo.textContent = 'Events: ' + towns[i].events;
+
                 image.setAttribute('src', 'images/'+towns[i].photo);
                 image.setAttribute('alt', towns[i].name + ' Hometown');
+
+                
+
                 let srcLink = "";
                 if (towns[i].name == "Soda Springs") 
                     srcLink = "/sodaspring/sodasprings.html";
@@ -48,7 +55,7 @@ fetch(requestURL)
                 info.appendChild(people);
                 info.appendChild(rain);
                 card.appendChild(info);
-
+                info.appendChild(todo);
                 document.getElementById('cards').appendChild(card);
             }
         }
