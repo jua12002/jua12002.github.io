@@ -29,7 +29,7 @@ fetch(requestURL)
                 people.textContent = 'Address: ' + towns[i].currentPopulation;
                 rain.textContent = 'Time: ' + towns[i].averageRainfall;
 
-                todo.textContent = 'Events:   ' + towns[i].events;
+                todo.textContent = 'Events: ' + towns[i].events;
 
                 image.setAttribute('src', 'images/'+towns[i].photo);
                 image.setAttribute('alt', towns[i].name + 'Places');
