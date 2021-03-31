@@ -235,12 +235,10 @@ img {
 
 #cards div {
     margin-top: 50px;
-    color: #0D153B;
+    color: #000007c5;
     display: block;
-    border: #0D153B solid 2px;
-background: #43cea2;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to bottom, #185a9d, #43cea2);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to bottom, #185a9d, #43cea2); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    border: #110066 solid 2px;
+    background: radial-gradient(#FFFFFF, #FFD432);
 }
 
 #cards {
@@ -257,7 +255,6 @@ img {
     padding: 20px;
 
 }
-
 
 .visitus.visitusimg {
     float: left;
