@@ -25,14 +25,14 @@ fetch(requestURL)
 
                 link.textContent = towns[i].name;
                 motto.textContent = towns[i].motto;
-                date.textContent = 'Year Founded: ' + towns[i].yearFounded;
-                people.textContent = 'Population: ' + towns[i].currentPopulation;
-                rain.textContent = 'Annual Rain Fall: ' + towns[i].averageRainfall;
+                date.textContent = 'New: ' + towns[i].yearFounded;
+                people.textContent = 'Address: ' + towns[i].currentPopulation;
+                rain.textContent = 'Time: ' + towns[i].averageRainfall;
 
                 todo.textContent = 'Events: ' + towns[i].events;
 
                 image.setAttribute('src', 'images/'+towns[i].photo);
-                image.setAttribute('alt', towns[i].name + ' Hometown');
+                image.setAttribute('alt', towns[i].name + 'Places');
 
                 let srcLink = "";
                 if (towns[i].name == "Winnipeg Zoo") 

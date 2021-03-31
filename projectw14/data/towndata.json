@@ -2,14 +2,14 @@
     "towns": [
       {
         "name": "Winnipeg Zoo",
-        "photo": "springfield.jpg",
+        "photo": "zoo.jpg",
         "motto": "This is One of the most beautiful attractions",
         "yearFounded": "Soon Zoo Camp",
         "currentPopulation": "2595 Roblin Blvd Winnipeg MB R3R 2N7",
         "averageRainfall": "Daily 9:00 am - 5:00 pm",
         "events": [
           "Zoo Members FREE ", 
-          "The Park Café",
+          "The Park Café is open",
           "Wedding ceremonies and receptions",
           "Birthday parties",
           "Churchill"
@@ -17,7 +17,7 @@
       },
       {
         "name": "The Forks",
-        "photo": "fishhaven.jpg",
+        "photo": "theforks.jpg",
         "motto": "Located at the junction of the Red and Assiniboine rivers.",
         "yearFounded": "Events for every weekend",
         "currentPopulation": "1 Forks Market Rd, Winnipeg, MB R3C 4L9",
@@ -33,7 +33,7 @@
       },
       {
         "name": "Assiniboine park",
-        "photo": "sodasprings.jpg",
+        "photo": "assiniboinepark.jpg",
         "motto": "Leo Mol Sculpture Garden & English Garden",
         "yearFounded": "Nature Playground with picnic areas",
         "currentPopulation": "55 Pavilion Crescent, Winnipeg, MB R3P 2N6",
