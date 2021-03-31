@@ -9,7 +9,7 @@ fetch(requestURL)
         const towns = jsonObject['towns'];
 
         for (let i = 0; i < towns.length; i++) {
-            if (towns[i].name == "Winnipeg Zoo" || towns[i].name == "The Forks" || towns[i].name == "Assiniboine park") {
+            if (towns[i].name == "Soda Springs" || towns[i].name == "Preston" || towns[i].name == "Fish Haven") {
                 let card = document.createElement('div');
                 let info = document.createElement('section');
                 let photo = document.createElement('figure');
@@ -37,12 +37,12 @@ fetch(requestURL)
                 
 
                 let srcLink = "";
-                if (towns[i].name == "Winnipeg Zoo") 
-                    srcLink = "https://www.assiniboinepark.ca/zoo/visit/hours-and-rates";
-                if (towns[i].name == "The Forks"  )
-                    srcLink = "https://www.theforks.com/about/the-forks";
-                if (towns[i].name == "Assiniboine park")
-                    srcLink = "https://www.assiniboinepark.ca/park/visit/hours";
+                if (towns[i].name == "Soda Springs") 
+                    srcLink = "/sodaspring/sodasprings.html";
+                if (towns[i].name == "Preston"  )
+                    srcLink = "/lesson10api/preston.html";
+                if (towns[i].name == "Fish Haven")
+                    srcLink = "/fishhaven/fishhaven.html";
 
                 link.setAttribute('href',srcLink );
                 name.appendChild(link);
