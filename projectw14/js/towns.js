@@ -25,7 +25,7 @@ fetch(requestURL)
 
                 link.textContent = towns[i].name;
                 motto.textContent = towns[i].motto;
-                date.textContent = 'New: ' + towns[i].yearFounded;
+                date.textContent = 'News: ' + towns[i].yearFounded;
                 people.textContent = 'Address: ' + towns[i].currentPopulation;
                 rain.textContent = 'Time: ' + towns[i].averageRainfall;
 
