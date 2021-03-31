@@ -137,10 +137,11 @@ nav button {
 nav .menu ul {
     background: #CC2C0B;  /* fallback for old browsers */
     font-family: 'Gorila', cursive;
+    font-size: larger;
     display: flex;
     flex-direction: column;
     list-style-type: none;
-    padding: 0;
+    /*padding: 0;*/
     margin: 0;
 }
 
