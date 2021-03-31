@@ -18,7 +18,7 @@ fetch(requestURL)
                 let date = document.createElement('p');
                 let people = document.createElement('p');
                 let rain = document.createElement('p');
-                let todo = document.createElement('h3');
+                let todo = document.createElement('p');
                 let image = document.createElement('img');
                 let link = document.createElement('a');
 
