@@ -1,4 +1,4 @@
-const requestURL = 'https://github.com/jua12002/projectw14/data/towndata.json';
+const requestURL = 'https://jua12002.github.io/projectw14/data/towndata.json';
  
 fetch(requestURL)
     .then(function (response) {
@@ -33,8 +33,6 @@ fetch(requestURL)
 
                 image.setAttribute('src', 'images/'+towns[i].photo);
                 image.setAttribute('alt', towns[i].name + ' Hometown');
-
-                
 
                 let srcLink = "";
                 if (towns[i].name == "Winnipeg Zoo") 

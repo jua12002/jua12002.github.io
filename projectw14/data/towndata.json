@@ -5,15 +5,14 @@
         "photo": "springfield.jpg",
         "motto": "This is One of the most beautiful attractions",
         "yearFounded": "Soon Zoo Camp",
-        "currentPopulation": "2595 Roblin Blvd, Winnipeg, MB R3R 2N7",
+        "currentPopulation": "2595 Roblin Blvd Winnipeg MB R3R 2N7",
         "averageRainfall": "Daily 9:00 am - 5:00 pm",
         "events": [
-          "Park & Zoo Members	FREE ", 
-          "Adults (18-59)	$21.50 ",
-          "Seniors (60+)	$18.75 ",
-          "Students (with valid student ID)	$18.75 ",
-          "Children (3 - 17 years)	$12.00 ",
-          "Children 2 and under	FREE ",
+          "Zoo Members FREE ", 
+          "The Park Café",
+          "Wedding ceremonies and receptions",
+          "Birthday parties",
+          "Churchill"
         ]
       },
       {
@@ -46,4 +45,4 @@
         ]
       }
     ]
-  }
+}
