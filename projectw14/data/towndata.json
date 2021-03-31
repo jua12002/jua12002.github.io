@@ -7,12 +7,12 @@
         "yearFounded": "Soon Zoo Camp",
         "currentPopulation": "2595 Roblin Blvd Winnipeg MB R3R 2N7",
         "averageRainfall": "Daily 9:00 am - 5:00 pm",
-        "events": [
+        "Open events for": [
           "Zoo Members FREE ", 
-          "The Park Café is open",
-          "Wedding ceremonies and receptions",
-          "Birthday parties",
-          "Churchill"
+          "The Park Café is open ",
+          "Wedding ceremonies and receptions ",
+          "Birthday parties ",
+          "Visit Churchill "
         ]
       },
       {
@@ -22,13 +22,13 @@
         "yearFounded": "Events for every weekend",
         "currentPopulation": "1 Forks Market Rd, Winnipeg, MB R3C 4L9",
         "averageRainfall": "Daily 9:00 am - 9:00 pm",
-        "events": [
-          "The Forks Market",
-          "Johnston Terminal",
-          "The Children's Museum",
-          "Trolley Co. Tours",
-          "Manitoba Theatre for Young People",
-          "Johnston Terminal"
+        "Open events for": [
+          "The Forks Market ",
+          "Johnston Terminal ",
+          "The Children's Museum ",
+          "Trolley Co. Tours ",
+          "Manitoba Theatre for Young People ",
+          "Johnston Terminal "
         ]
       },
       {
@@ -38,10 +38,10 @@
         "yearFounded": "Nature Playground with picnic areas",
         "currentPopulation": "55 Pavilion Crescent, Winnipeg, MB R3P 2N6",
         "averageRainfall": "Public greenspace is open 24 hours a day, year-round",
-        "events": [
-          "February 29: Geyser Song Day",
-          "May 1-6: Days of May Celebration",
-          "October 15-16: Octoberfest"
+        "Open events for": [
+          "February 29: Geyser Song Day ",
+          "May 1-6: Days of May Celebration ",
+          "October 15-16: Octoberfest "
         ]
       }
     ]
