@@ -2,7 +2,7 @@
     "towns": [
       {
         "name": "Winnipeg Zoo",
-        "photo": "zoo.jpg",
+        "photo": "/projectw14/images/zoo.jpg",
         "motto": "This is One of the most beautiful attractions",
         "yearFounded": "Soon Zoo Camp",
         "currentPopulation": "2595 Roblin Blvd Winnipeg MB R3R 2N7",

@@ -1,6 +1,6 @@
 /* 35em is also 560px when basefont is 16px */
 @media only screen and (min-width: 500px) {
-
+     /*
     .cards {
         display: grid;
         grid-template-columns: 1fr;
@@ -9,11 +9,27 @@
     #cards div {
         display: flex;
     }
-
+   
     #cards div:nth-child(odd) {
         flex-direction: row-reverse;
     }
-      
+     
+    #cards div {
+        display: block;
+    }
+    
+    
+    #cards div:nth-child(odd) {
+        flex-direction: column;
+    }
+    
+    
+    .cards {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }*/
+    
+
     
     nav {/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#b4e391+0,61c419+50,b4e391+100;Green+3D */
         background:  #cc2c0b; 
