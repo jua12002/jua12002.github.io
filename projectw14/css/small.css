@@ -74,7 +74,16 @@ header img {
     max-width: 70%;
     }
   
-    section.forecast{display: none;}  
+    /*section.forecast{display: none;} */
+    section.forecast div {
+        text-align: center;
+        border: 1px solid #110066;
+    }
+    section.forecast div h5 {
+        background-color:#FFD432;
+        margin: 0;
+        padding: 1rem 0;
+    } 
 
 h2 {
     text-align: center;
