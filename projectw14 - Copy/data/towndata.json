@@ -1,0 +1,48 @@
+{
+    "towns": [
+      {
+        "name": "Winnipeg Zoo",
+        "photo": "zoo.jpg",
+        "motto": "This is One of the most beautiful attractions",
+        "yearFounded": "Soon Zoo Camp",
+        "currentPopulation": "2595 Roblin Blvd Winnipeg MB R3R 2N7",
+        "averageRainfall": "Daily 9:00 am - 5:00 pm",
+        "events": [
+          "Zoo Members FREE", 
+          "The Park Café is open",
+          "Wedding ceremonies and receptions",
+          "Birthday parties",
+          "Visit Churchill"
+        ]
+      },
+      {
+        "name": "The Forks",
+        "photo": "theforks.jpg",
+        "motto": "Located at the junction of the Red and Assiniboine rivers.",
+        "yearFounded": "Events for every weekend",
+        "currentPopulation": "1 Forks Market Rd, Winnipeg, MB R3C 4L9",
+        "averageRainfall": "Daily 9:00 am - 9:00 pm",
+        "events": [
+          "The Forks Market",
+          "Johnston Terminal",
+          "The Children's Museum",
+          "Trolley Co. Tours",
+          "Manitoba Theatre for Young People",
+          "Johnston Terminal"
+        ]
+      },
+      {
+        "name": "Assiniboine park",
+        "photo": "assiniboinepark.jpg",
+        "motto": "Leo Mol Sculpture Garden & English Garden",
+        "yearFounded": "Nature Playground with picnic areas",
+        "currentPopulation": "55 Pavilion Crescent, Winnipeg, MB R3P 2N6",
+        "averageRainfall": "Public greenspace is open 24 hours a day, year-round",
+        "events": [
+          "The Park Café is OPEN for indoor dining",
+          "May 1: Playgrown OPEN",
+          "May to Oct Picnoc areas availables"
+        ]
+      }
+    ]
+}

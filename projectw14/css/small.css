@@ -14,17 +14,6 @@ picture.myphotoA {
     margin: 0 2%; 
     align-content: center;
 }
-/*
-main picture.myphotoA img, main picture.myphotoB img {width: 100%; }*/
-
-main picture.myphotoB img {width: 100%;}
-
-
-main picture.myphotoA div, main picture.photoB div {
-    text-align: center;
-    font-weight: 500;
-    color: #FFD432;
-}
 
 picture.myphotoB {
     float: right;
@@ -33,6 +22,18 @@ picture.myphotoB {
     margin: 0 2%; 
 }
 
+
+/*
+main picture.myphotoA img, main picture.myphotoB img {width: 100%; }
+
+main picture.myphotoB img {width: 100%;}*/
+
+
+main picture.myphotoA div, main picture.photoB div {
+    text-align: center;
+    font-weight: 500;
+    color: #FFD432;
+}
 
 body {
     background-color: #FFFFFF;
@@ -118,6 +119,7 @@ h2 {
     opacity: .8;
 }
 
+
 .mid_ph {
     margin:1px;
     border: 1px solid #110066;
@@ -196,7 +198,7 @@ main, footer, .menu {
 } 
 
 footer {
-    color: white;
+    color: black;
     text-align: center;
     padding: 1rem 2%;
     background: #CC2C0B;  /* fallback for old browsers */
@@ -231,20 +233,19 @@ article:nth-child(odd) {
 }
 
 img {
-    /*border:1px solid #000080; */
-    width: 100%; 
+    /*border:1px solid #000080; 
+    width: 100%;*/
     height: auto;}
     
 .data {background-color:#000; color:#fff;}
 
- /*Town*/
+ 
 #cards img{
     width:300px;
     box-shadow: 0 4px 8px 0 rgba(29, 28, 28, 0.5);
 }
 
 #cards div {
-    margin-top: 50px;
     color: #000007c5;
     display: block;
     border: #110066 solid 2px;
@@ -266,7 +267,7 @@ img {
 
 }
 
-.visitus.visitusimg {
+/*.visitus.visitusimg {
     float: left;
     padding: 20px;   
     height: auto;
@@ -275,4 +276,32 @@ img {
     max-width: 100%;
     height: auto;
 
+    }*/
+   
+    .fotos {
+        position: absolute;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        background: #110066; 
+        margin: 10;
+        padding: 10rem 0;   
+        max-width: 100%;
+        width: auto;
+        height: auto;
+        align-items: center;
+        justify-items: center;
     }
+
+    .events {
+        margin: 0;
+        background: radial-gradient( #FFFFFF, #FFD432);
+        border: 2px #110066;
+        padding: .25rem;
+        box-shadow: 0 0 10px  #919191;
+        font-family: 'Gorditas', cursive;
+        font-size: small;
+        text-align: center;
+    }
+
+    
+    
