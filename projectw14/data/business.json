@@ -1,0 +1,60 @@
+{
+"business": [
+    {
+        "Name": "Osteopath Treatment",
+        "Address": "1453 Chancellor Dr, Winnipeg MB, R3T 4S4",
+        "Contact": "204-590-8553",
+        "Activity": "Osteopathy",
+        "Website": "https://www.osteopathtreatment.ca/"
+    },
+    {
+        "Name": "City of Winnipeg",
+        "Address": "510 Main Street, Winnipeg MB, R3B 1B9",
+        "Contact": "204-986-1311",
+        "Activity": "City facilities and services",
+        "Website": "https://winnipeg.ca/interhom/default.asp" 
+    },
+    {
+        "Name": "University of Winnipeg",
+        "Address": "515 Portage Ave, Winnipeg, MB R3B 2E9",
+        "Contact": "204-786-9844",
+        "Activity": "University continuing education",
+        "Website": "https://www.uwinnipeg.ca/" 
+    },
+    {
+        "Name": "University of Winnipeg",
+        "Address": "515 Portage Ave, Winnipeg, MB R3B 2E9",
+        "Contact": "204-786-9844",
+        "Activity": "University continuing education",
+        "Website": "https://www.uwinnipeg.ca/" 
+   },
+   {
+        "Name": "Canadian College Solution to Pain",
+        "Address": "1453 Chancellor Dr, Winnipeg MB, R3T 4S4",
+        "Contact": "204-914-4667",
+        "Activity": "College",
+        "Website": "https://www.solutionstopain.ca/"
+    },
+    {
+        "Name": "Coal & Canary",
+        "Address": "1 Forks Market Rd, Winnipeg, MB R3C 4L9",
+        "Contact": "204-947-5484",
+        "Activity": "Candle Company",
+        "Website": "https://www.coalandcanary.com/" 
+    },
+    {
+        "Name": "Magicuts",
+        "Address": "1160-1120 Grant Ave, Winnipeg, MB R3M 2A6",
+        "Contact": "204-489-9396",
+        "Activity": "Hair salon",
+        "Website": "https://www.magicutssalons.com/" 
+    },
+    {
+        "Name": "Taco Sargent",
+        "Address": "698 Sargent Ave. Winipeg MB R3E 0A9",
+        "Contact": "204 505-1121",
+        "Activity": "Taco Shop",
+        "Website": "https://sargent-tacoshop.com/" 
+    }
+  ]
+}

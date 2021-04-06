@@ -1,16 +1,16 @@
 <!doctype html>
 <html lang="en">
-
 <head>
   <meta charset="utf-8">
-  <title>Preston Town</title>
+  <title>Chamber of Commerce Winnipeg</title>
   <link rel="Shortcut Icon" href="favicon.ico">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link href="https://fonts.googleapis.com/css2?family=Gorditas&family=Hachi+Maru+Pop&family=Lobster+Two&display=swap" rel="stylesheet">
   <link rel="preconnect" href="https://fonts.gstatic.com">
-
-  <!-- STYLE SHEETS 
-  <link href="css/normalize.css" rel="stylesheet"> -->
+  <link href="https://fonts.googleapis.com/css2?family=Chango&display=swap" rel="stylesheet">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <meta name="description" content="Chamber of Commerce Winnipeg">
+  <meta name="author" content="Fabiola Juarez">
+  
+  <link href="css/normalize.css" rel="stylesheet">
   <!-- phone-default -->
   <link href="css/small.css" rel="stylesheet">
   <!-- enhance-tablet -->
@@ -22,162 +22,64 @@
 <body>
 	<header>
         <picture>
-        <img class="logo" src="images/prestonlogo.jpg" alt="Preston Logo">
+            <img class="logo" src="/projectw14/cclogo.jpg" alt="CCW">
         </picture>
         <section class="headings">
-          <h1>Preston Weather</h1>
-          <div class="m">Here the weather matters every single day, Want to know what the weather is now? </div>
-        </section>    
+            <h1>Chamber of</h1>
+            <h1>Commerce</h1>
+            <h1>Winnipeg</h1>
+        </section>     
   </header>
        
-    <nav class="clearfix">
+  <nav class="clearfix">
         <button onclick="toggleMenu()">&#9776;</button> 
         <div class="menu"> 
           <ul id="primaryNav" class="hide">
-              <li><a href="/lesson11/index.html">Home</a></li>
-              <li class="active"><a href="preston.html">Preston</a></li>
-              <li><a href="/sodaspring/sodasprings.html">Soda Springs</a></li>
-              <li><a href="/fishhaven/fishhaven.html">Fish Haven</a></li>
-              <li><a href="/lesson8/stormcenter.html">Storm Center</a></li>
-              <li><a href="/lesson7/gallery-7.html">Gallery</a></li>    
+              <li><a href="/projectw14/index.html">Home</a></li>
+              <li><a href="/projectw14/city.html">Winnipeg</a></li>
+              <li><a href="/projectw14/join.html">Join</a></li>
+              <li class="active"><a href="/projectw14/directory.html">Directory</a></li>
+              <li><a href="/projectw14/contactus.html">Contact</a></li>
           </ul>
         </div>
-    </nav>
+  </nav>
         
     <main class="clearfix">
-        <div id="message">Saturday, Preston Pancakes in the Park! 9:00 a.m. at the city park pavilion</div>
-        <h2>Preston Idaho</h2>
+        <h2>Let us help you to start your journey toward a successful business, subscribe now!</h2>
         <div class="herodiv">
           <picture class="myphotoA">
-              <source media="(max-width: 200px)" srcset="images/hero200small.jpg">
-              <source media="(max-width: 400px)" srcset="images/hero400small.jpg">
-              <source media="(max-width: 800px)" srcset="images/hero800medium.jpg">
-              <img src="images/hero1100.jpg" alt="hero">
-          </picture> 
-          
-          <div class="summary">
-              <h2>Weather Summary</h2>
-              <p>Town: <span id="place"></span></p>
-              <p>Temperature is: <span id="currentTemp"></span>&deg;F</p>
-              <p>High: <span id="tempmax"></span>&deg;F</p>
-              <p>Humidity is: <span id="humidity"></span>%</p>
-              <p>Wind Speed is: <span id="windSpeed"></span>mph</p>
-              <p>Windchill: <span id="chill"></span></p>
-          </div>
-       </div>
-      
-      <h2 class="forecast_title">5 Days Forecast</h2>
-        <section class="forecast">
-
-          <div>
-            <h5><span id="dayofweek1"></span></h5>
-            <img id="icon1" src="https://github.com/jua12002/lesson10api/images/placeholder.png?raw=true" alt="holder">  
-            <p><span id="forecast1"></span>&#8457;</p>
-          </div>
-
-          <div>
-            <h5><span id="dayofweek2"></span></h5>
-            <img id="icon2" src="https://github.com/jua12002/lesson10api/images/placeholder.png?raw=true" alt="holder">  
-            <p><span id="forecast2"></span>&#8457;</p>
-          </div>
- 
-          <div>
-            <h5><span id="dayofweek3"></span></h5>
-            <img id="icon3" src="https://github.com/jua12002/lesson10api/images/placeholder.png?raw=true" alt="holder">  
-            <p><span id="forecast3"></span>&#8457;</p>
-          </div>
-
-          <div>
-            <h5><span id="dayofweek4"></span></h5>
-            <img id="icon4" src="https://github.com/jua12002/lesson10api/images/placeholder.png?raw=true" alt="holder">  
-            <p><span id="forecast4"></span>&#8457;</p>
-          </div>
-
-          <div>
-            <h5><span id="dayofweek5"></span></h5>
-            <img id="icon5" src="https://github.com/jua12002/lesson10api/images/placeholder.png?raw=true" alt="holder">  
-            <p><span id="forecast5"></span>&#8457;</p>
-          </div>
-        </section>
+              <source media="(max-width: 200px)" srcset="images/herowpg200.jpg">
+              <source media="(max-width: 400px)" srcset="images/herowpg400.jpg">
+              <source media="(max-width: 800px)" srcset="images/herowpg800.jpg">
+              <img src="/projectw14/images/herowpg1100.jpg" alt="wpghero">
+          </picture>
         
-        <div class="events">
-            <h2>Local Events</h2>
-            <p>April 2:<br>
-               Art Gallery the official opening of Qaumajuq.</p>
-            <p>April 2 to 20:<br>
-               Virtuall tour 31Art Gallery the official opening of Qaumajuq.</p>
-            <p>April 30:<br>
-               Police Museum displays many artifacts related to the history of the town.</p>
+          <div class="summary">
+            <h3>Current Weather in</h3>
+            <h3><span id="place"></span></h3>
+            <p>Temperature is: <span id="currentTemp"></span>&deg;F</p>
+            <p>High: <span id="tempmax"></span>&deg;F</p>
+            <p>Humidity is: <span id="humidity"></span>%</p>
+            <p>Wind Speed is: <span id="windSpeed"></span>mph</p>
+            <p>Windchill: <span id="chill"></span></p>
+          </div>
         </div>
-
-        <article class="article">
-          <h2>Don't be afraid, enjoy the weather</h2>
-          <!--<img class="mid_ph" src="images/sportsw.jpg" alt="sports in winter"> -->
-
-          <picture class="myphotoB">
-            <source media="(max-width: 400px)"  srcset="images/sportsw200.jpg">
-            <source media="(max-width: 1000px)" srcset="images/sportsw500.jpg">
-            <source media="(max-width: 1600px)" srcset="images/sportsw800.jpg">
-            <img src="images/sportsw1100.jpg" alt="sportsw">
-          </picture> 
-          <div>
-          <p>Winter sports or winter activities are competitive sports or non-competitive recreational activities which 
-            are played on snow or ice.[1] Most are variations of skiing, ice skating and sledding. Traditionally, such 
-            games were only played in cold areas during winter, but artificial snow and artificial ice allow more flexibility. 
-            Artificial ice can be used to provide ice rinks for ice skating, ice hockey, and bandy in a milder climate.<br><br>
-
-            Common individual sports include cross-country skiing, alpine skiing, snowboarding, ski jumping, speed skating,
-            figure skating, luge, skeleton, bobsleigh, ski orienteering and snowmobiling. Common team sports include ice 
-            hockey, curling, and bandy. Based on the number of participants, ice hockey is by far the world's most popular 
-            winter sport, followed by bandy.[2] Winter sports have their own multi-sport events, such as the Winter Olympic
-            Games and the Winter Universiade.                   Wikipedia</p>
-          </div>
-        </article>
-        <h2>Contact Us</h2>
-        <div class="contact">
-          <div>
-            <h4>ADDRESS: </h4>
-            <p>The Weather Center</p>
-            <p>123 Main Street,  </p>
-            <p>Franklin, MI 87654</p>
-          </div>
-          <div>
-            <h4>PHONE: </h4> <p>123-456-7890</p>
-            <h4>EMAIL: </h4> <p>abdcedfh@idaho.com</p>
-          </div>
-          <div>
-            <a href="https://www.google.com/maps/place/Preston,+ID+83263/@42.0998053,-111.9153444,13z/data=!3m1!4b1!4m5!3m4!1s0x8754f78c7cda6c31:0xf1b3b4fc465a4a3f!8m2!3d42.0963133!4d-111.8766173">
-              <img class="map" src="images/map1.jpg" alt="Preston map">
-            </a>
-          </div>
-       </div>
-                   
+       
+      <br><br><br><br>
+      <h2>Directory of some local business here in Winnipeg</h2>
+      <div class="cards" id="cards"></div>  
+    
+      
+    
     </main>
     
     <footer>
         &copy; 2021 | Fabiola Juarez | Date: <span id="currentdate"></span>
-    </footer>
-
- 
- <script>
-    const today = new Date();
-    console.log(today);
-
-    const dayNumber = today.getDate();
-    console.log(dayNumber);
-    
-    const element = document.getElementById("message");
-    
-    if (dayNumber == 5) {
-        element.classList.add("showme");
-    } else {
-        element.classList.add("hideme");
-    }
- </script>  
+    </footer> 
 
 <script src="js/currentdate.js"></script>    
 <script src="js/scripts.js"></script>
+<script src="js/business.js"></script>
 <script src="js/weatherapi.js"></script>
-
 </body>
 </html>
