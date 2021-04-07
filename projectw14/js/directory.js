@@ -11,7 +11,7 @@ fetch(requestURL)
         for (let i = 0; i < towns.length; i++) {
             if (towns[i].name == "Osteopath Treatment" || towns[i].name == "City of Winnipeg" || towns[i].name == "University of Winnipeg"||
                towns[i].name == "Hy Steakhouse" || towns[i].name == "Coal & Canary" || towns[i].name == "Taco Sargent"||
-               towns[i].name == "Canadian College Solution to Pain" || towns[i].name == "Magicuts" || towns[i].name == "The Forks"){
+               towns[i].name == "Canadian College Solution to Pain" || towns[i].name == "Magicuts" || towns[i].name == "BMCmarket"){
                 let card = document.createElement('div');
                 let info = document.createElement('section');
                 let photo = document.createElement('figure');
@@ -53,8 +53,8 @@ fetch(requestURL)
                     srcLink = "https://www.magicutssalons.com/";
                 if (towns[i].name == "Taco Sargent" )
                     srcLink = "https://sargent-tacoshop.com/";
-                if (towns[i].name == "The Forks")
-                    srcLink = "https://www.theforks.com/about/the-forks";
+                if (towns[i].name == "BMCmarket")
+                    srcLink = "https://bmcmarket.com/";
 
                 link.setAttribute('href',srcLink );
                 name.appendChild(link);
