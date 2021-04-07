@@ -15,12 +15,12 @@ fetch(requestURL)
                 let card = document.createElement('div');
                 let info = document.createElement('section');
                 let photo = document.createElement('figure');
-                let name = document.createElement('h2');
-                let motto = document.createElement('h3');
+                let name = document.createElement('h3');
+                let motto = document.createElement('h4');
                 let date = document.createElement('p');
                 let people = document.createElement('p');
                 let rain = document.createElement('p');
-                let todo = document.createElement('p');
+                let todo = document.createElement('h4');
                 let image = document.createElement('img');
                 let link = document.createElement('a');
 
@@ -28,8 +28,8 @@ fetch(requestURL)
                 link.textContent = towns[i].name;
                 motto.textContent = towns[i].motto;
                 date.textContent = 'Contact: ' + towns[i].Contact;
-                people.textContent = 'Address: ' + towns[i].currentPopulation;
-                rain.textContent = 'Website: ' + towns[i].Website;
+                people.textContent = '' + towns[i].currentPopulation;
+                rain.textContent = '' + towns[i].Website;
                 
                 todo.textContent = 'News or Events: ' + towns[i].events;
 
@@ -37,12 +37,24 @@ fetch(requestURL)
                 image.setAttribute('alt', towns[i].name + 'Places');
 
                 let srcLink = "";
-                if (towns[i].name == "Winnipeg Zoo") 
-                    srcLink = "https://www.assiniboinepark.ca/zoo/visit/hours-and-rates";
-                if (towns[i].name == "The Forks"  )
+                if (towns[i].name == "Osteopath Treatment") 
+                    srcLink = "https://www.osteopathtreatment.ca/";
+                if (towns[i].name == "City of Winnipeg"  )
+                    srcLink = "https://winnipeg.ca/";
+                if (towns[i].name == "University of Winnipeg")
+                    srcLink = "https://www.uwinnipeg.ca/";
+                if (towns[i].name == "Hy Steakhouse") 
+                    srcLink = "https://hyssteakhouse.com/";
+                if (towns[i].name == "Canadian College Solution to Pain" )
+                    srcLink = "https://www.solutionstopain.ca/";
+                if (towns[i].name == "Coal & Canary")
+                    srcLink = "https://www.coalandcanary.com/";
+                if (towns[i].name == "Magicuts") 
+                    srcLink = "https://www.magicutssalons.com/";
+                if (towns[i].name == "Taco Sargent" )
+                    srcLink = "https://sargent-tacoshop.com/";
+                if (towns[i].name == "The Forks")
                     srcLink = "https://www.theforks.com/about/the-forks";
-                if (towns[i].name == "Assiniboine park")
-                    srcLink = "https://www.assiniboinepark.ca/park/visit/hours";
 
                 link.setAttribute('href',srcLink );
                 name.appendChild(link);
