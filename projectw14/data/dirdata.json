@@ -35,7 +35,7 @@
       },
       {
         "name": "City of Winnipeg",
-        "photo": "logocit.gif",
+        "photo": "logocit.jpg",
         "motto": "City facilities and services",
         "yearFounded": "Call 311",
         "currentPopulation": "510 Main Street, Winnipeg MB, R3B 1B9",
@@ -80,7 +80,7 @@
       },
       {
         "name": "Canadian College Solution to Pain",
-        "photo": "ccsp.jpg",
+        "photo": "logoccs.jpg",
         "motto": "College",
         "yearFounded": "Education",
         "currentPopulation": "1453 Chancellor Dr, Winnipeg MB, R3T 4S4",
@@ -95,7 +95,7 @@
       },
       {
         "name": "Coal & Canary",
-        "photo": "cc.jpg",
+        "photo": "logocc.jpg",
         "motto": "Candle Company",
         "yearFounded": "Education",
         "currentPopulation": "1 Forks Market Rd, Winnipeg, MB R3C 4L9",
@@ -110,7 +110,7 @@
       },
       {
         "name": "Magicuts",
-        "photo": "mc.jpg",
+        "photo": "logomc.jpg",
         "motto": "Hair salon",
         "yearFounded": "Hair",
         "currentPopulation": "1160-1120 Grant Ave, Winnipeg, MB R3M 2A6",
@@ -125,7 +125,7 @@
       },
       {
         "name": "Taco Sargent",
-        "photo": "ts.jpg",
+        "photo": "logots.jpg",
         "motto": "Mexican Food",
         "yearFounded": "Tacos",
         "currentPopulation": "698 Sargent Ave. Winipeg MB R3E 0A9",
