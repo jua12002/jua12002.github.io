@@ -9,7 +9,9 @@ fetch(requestURL)
         const towns = jsonObject['towns'];
 
         for (let i = 0; i < towns.length; i++) {
-            if (towns[i].name == "Winnipeg Zoo" || towns[i].name == "The Forks" || towns[i].name == "Assiniboine park") {
+            if (towns[i].name == "Osteopath Treatment" || towns[i].name == "City of Winnipeg" || towns[i].name == "University of Winnipeg"||
+               towns[i].name == "Hy Steakhouse" || towns[i].name == "Coal & Canary" || towns[i].name == "Taco Sargent"||
+               towns[i].name == "Canadian College Solution to Pain" || towns[i].name == "Magicuts" || towns[i].name == "The Forks"){
                 let card = document.createElement('div');
                 let info = document.createElement('section');
                 let photo = document.createElement('figure');
@@ -25,11 +27,11 @@ fetch(requestURL)
 
                 link.textContent = towns[i].name;
                 motto.textContent = towns[i].motto;
-                date.textContent = 'News: ' + towns[i].yearFounded;
+                date.textContent = 'Contact: ' + towns[i].Contact;
                 people.textContent = 'Address: ' + towns[i].currentPopulation;
-                rain.textContent = 'Time: ' + towns[i].averageRainfall;
-
-                todo.textContent = 'Events: ' + towns[i].events;
+                rain.textContent = 'Website: ' + towns[i].Website;
+                
+                todo.textContent = 'News or Events: ' + towns[i].events;
 
                 image.setAttribute('src', 'images/'+towns[i].photo);
                 image.setAttribute('alt', towns[i].name + 'Places');

@@ -9,6 +9,7 @@
         "averageRainfall": "Daily 9:00 am - 5:00 pm",
         "Contact": "204-584-8553",
         "Activity": "Zoo",
+        "Website": "https://www.assiniboinepark.ca/zoo/visit/hours-and-rates",
         "events": [
           "Zoo Members FREE", 
           "The Park Café is open",
@@ -22,10 +23,11 @@
         "photo": "ost.jpg",
         "motto": "Manual Osteopath",
         "yearFounded": "Accepting new patients",
-        "currentPopulation": "1453 Chancellor Dr, Winnipeg MB, R3T 4S4",
+        "currentPopulation": "hkjhsjkdhsakjdhdkjash",
         "averageRainfall": "M-S 9:00 am - 5:00 pm",
         "Contact": "204-584-8553",
         "Activity": "Treatments",
+        "Website": "https://www.osteopathtreatment.ca/",
         "events": [
           "New Treatments",
           "Fascia"
@@ -40,6 +42,7 @@
         "averageRainfall": "M-F 9:00 am - 4:00 pm",
         "Contact": "204-986-1311",
         "Activity": "City facilities and services",
+        "Website": "https://winnipeg.ca/interhom/default.asp", 
         "events": [
           "Festival de Vogage",
           "Santa Claus P"
@@ -54,6 +57,7 @@
         "averageRainfall": "M-F 8:00 am - 9:00 pm",
         "Contact": "204-786-9844",
         "Activity": "Education",
+        "Website": "https://www.uwinnipeg.ca/",
         "events": [
           "Zoom science",
           "Feria"
@@ -68,6 +72,7 @@
         "averageRainfall": "M-F 8:00 am - 9:00 pm",
         "Contact": "204-786-9844",
         "Activity": "Restaurant",
+        "Website": "https://hyssteakhouse.com/",
         "events": [
           "Take-out",
           "New Administration"
@@ -82,6 +87,7 @@
         "averageRainfall": "M-F 9:00 am - 3:00 pm",
         "Contact": "204-914-4667",
         "Activity": "Courses",
+        "Website": "https://www.solutionstopain.ca/",
         "events": [
           "New Seminary",
           "New Course"
@@ -96,6 +102,7 @@
         "averageRainfall": "M-S 9:00 am - 4:00 pm",
         "Contact": "204-947-5484",
         "Activity": "Fancy Candels",
+        "Website": "https://www.coalandcanary.com/", 
         "events": [
           "New 3 candels",
           "Choose 3 for $79"
@@ -110,6 +117,7 @@
         "averageRainfall": "M-S 10:00 am - 7:00 pm",
         "Contact": "204-489-9396",
         "Activity": "Hair Style",
+        "Website": "https://www.magicutssalons.com/", 
         "events": [
           "We are open",
           "New colour style 2021"
@@ -124,6 +132,7 @@
         "averageRainfall": "M-S 10:00 am - 7:00 pm",
         "Contact": "204-505-1121",
         "Activity": "Taco Shop",
+        "Website": "https://sargent-tacoshop.com/", 
         "events": [
           "New Taco",
           "We are Open"
@@ -136,6 +145,7 @@
         "yearFounded": "Events for every weekend",
         "currentPopulation": "1 Forks Market Rd, Winnipeg, MB R3C 4L9",
         "averageRainfall": "Daily 9:00 am - 9:00 pm",
+        "Website": "https://www.theforks.com/about/the-forks",
         "events": [
           "The Forks Market",
           "Johnston Terminal",
@@ -152,6 +162,7 @@
         "yearFounded": "Nature Playground with picnic areas",
         "currentPopulation": "55 Pavilion Crescent, Winnipeg, MB R3P 2N6",
         "averageRainfall": "Public greenspace is open 24 hours a day, year-round",
+        "Website": "https://www.assiniboinepark.ca/park/visit/hours", 
         "events": [
           "The Park Café is OPEN for indoor dining",
           "May 1: Playgrown OPEN",

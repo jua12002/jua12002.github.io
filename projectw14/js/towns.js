@@ -1,4 +1,4 @@
-const requestURL = 'https://jua12002.github.io/projectw14/data/towndata.json';
+const requestURL = 'https://jua12002.github.io/projectw14/data/dirdata.json';
  
 fetch(requestURL)
     .then(function (response) {
