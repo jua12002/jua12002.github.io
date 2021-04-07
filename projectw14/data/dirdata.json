@@ -20,7 +20,7 @@
       },
       {
         "name": "Osteopath Treatment",
-        "photo": "ost.jpg",
+        "photo": "logoost.jpg",
         "motto": "Manual Osteopath",
         "yearFounded": "Accepting new patients",
         "currentPopulation": "1453 Chancellor Dr. Winnipeg MB, R3T 4S4",
@@ -35,7 +35,7 @@
       },
       {
         "name": "City of Winnipeg",
-        "photo": "cit.jpg",
+        "photo": "logocit.gif",
         "motto": "City facilities and services",
         "yearFounded": "Call 311",
         "currentPopulation": "510 Main Street, Winnipeg MB, R3B 1B9",
@@ -50,7 +50,7 @@
       },
       {
         "name": "University of Winnipeg",
-        "photo": "UoW.jpg",
+        "photo": "logouow.jpg",
         "motto": "University continuing education",
         "yearFounded": "Certification and Degrees",
         "currentPopulation": "515 Portage Ave, Winnipeg, MB R3B 2E9",
@@ -65,7 +65,7 @@
       },
       {
         "name": "Hy Steakhouse",
-        "photo": "ste.jpg",
+        "photo": "logohys.jpg",
         "motto": "Restaurant",
         "yearFounded": "Steakhouse",
         "currentPopulation": "1 Lombard Place Main Floor, Winnipeg, MB R3B 0X3",

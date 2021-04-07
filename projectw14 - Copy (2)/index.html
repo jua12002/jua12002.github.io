@@ -1,0 +1,118 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Chamber of Commerce Winnipeg</title>
+  <link rel="Shortcut Icon" href="favicon.ico">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Chango&display=swap" rel="stylesheet">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <meta name="description" content="Chamber of Commerce Winnipeg">
+  <meta name="author" content="Fabiola Juarez">
+  
+  <link href="css/normalize.css" rel="stylesheet">
+  <!-- phone-default -->
+  <link href="css/small.css" rel="stylesheet">
+  <!-- enhance-tablet -->
+  <link href="css/medium.css" rel="stylesheet">
+  <!-- enhance-desktop -->
+  <link href="css/large.css" rel="stylesheet">
+</head>
+
+<body>
+	<header>
+        <picture>
+            <img class="logo" src="/projectw14/cclogo.jpg" alt="CCW">
+        </picture>
+        <section class="headings">
+            <h1>Chamber of</h1>
+            <h1>Commerce</h1>
+            <h1>Winnipeg</h1>
+        </section>     
+  </header>
+       
+  <nav class="clearfix">
+        <button onclick="toggleMenu()">&#9776;</button> 
+        <div class="menu"> 
+          <ul id="primaryNav" class="hide">
+              <li class="active"><a href="/projectw14/index.html">Home</a></li>
+              <li><a href="/projectw14/city.html">Winnipeg</a></li>
+              <li><a href="/projectw14/join.html">Join</a></li>
+              <li><a href="/projectw14/directory.html">Directory</a></li>
+              <li><a href="/projectw14/contactus.html">Contact</a></li>
+          </ul>
+        </div>
+  </nav>
+        
+    <main class="clearfix">
+        <h2>Let us help you to start your journey toward a successful business, subscribe now!</h2>
+        <div class="herodiv">
+          <picture class="myphotoA">
+              <source media="(max-width: 200px)" srcset="images/herowpg200.jpg">
+              <source media="(max-width: 400px)" srcset="images/herowpg400.jpg">
+              <source media="(max-width: 800px)" srcset="images/herowpg800.jpg">
+              <img src="/projectw14/images/herowpg1100.jpg" alt="wpghero">
+          </picture>
+        
+          <div class="summary">
+            <h3>Current Weather in</h3>
+            <h3><span id="place"></span></h3>
+            <p>Temperature is: <span id="currentTemp"></span>&deg;F</p>
+            <p>High: <span id="tempmax"></span>&deg;F</p>
+            <p>Humidity is: <span id="humidity"></span>%</p>
+            <p>Wind Speed is: <span id="windSpeed"></span>mph</p>
+            <p>Windchill: <span id="chill"></span></p>
+          </div>
+        </div>
+       
+      <br><br><br><br>
+      <h2>Some of the top sights and things to do in Winnipeg</h2>
+      <div class="cards" id="cards"></div>  
+    
+      <h2 class="forecast_title">Check the 5 Days Forecast</h2>
+      <section class="forecast">
+
+      <div>
+        <h5><span id="dayofweek1"></span></h5>
+        <img id="icon1" src="https://github.com/jua12002/lesson10api/images/placeholder.png?raw=true" alt="holder">  
+        <p><span id="forecast1"></span>&#8457;</p>
+      </div>
+
+      <div>
+        <h5><span id="dayofweek2"></span></h5>
+        <img id="icon2" src="https://github.com/jua12002/lesson10api/images/placeholder.png?raw=true" alt="holder">  
+        <p><span id="forecast2"></span>&#8457;</p>
+      </div>
+
+      <div>
+        <h5><span id="dayofweek3"></span></h5>
+        <img id="icon3" src="https://github.com/jua12002/lesson10api/images/placeholder.png?raw=true" alt="holder">  
+        <p><span id="forecast3"></span>&#8457;</p>
+      </div>
+
+      <div>
+        <h5><span id="dayofweek4"></span></h5>
+        <img id="icon4" src="https://github.com/jua12002/lesson10api/images/placeholder.png?raw=true" alt="holder">  
+        <p><span id="forecast4"></span>&#8457;</p>
+      </div>
+
+      <div>
+        <h5><span id="dayofweek5"></span></h5>
+        <img id="icon5" src="https://github.com/jua12002/lesson10api/images/placeholder.png?raw=true" alt="holder">  
+        <p><span id="forecast5"></span>&#8457;</p>
+      </div>
+    </section> 
+    
+    </main>
+    
+    <footer>
+        &copy; 2021 | Fabiola Juarez | Date: <span id="currentdate"></span>
+    </footer> 
+
+<script src="js/currentdate.js"></script>    
+<script src="js/scripts.js"></script>
+<script src="js/towns.js"></script>
+
+<script src="js/weatherapi.js"></script>
+</body>
+</html>

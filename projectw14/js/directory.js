@@ -34,7 +34,7 @@ fetch(requestURL)
                 todo.textContent = 'News or Events: ' + towns[i].events;
 
                 image.setAttribute('src', 'images/'+towns[i].photo);
-                image.setAttribute('alt', towns[i].name + 'Places');
+                image.setAttribute('alt', towns[i].name + 'Logo');
 
                 let srcLink = "";
                 if (towns[i].name == "Osteopath Treatment") 
