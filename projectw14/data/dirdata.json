@@ -139,6 +139,21 @@
         ]
       },
       {
+        "name": "BMCmarket",
+        "photo": "logbmc.jpg",
+        "motto": "Mexican Food",
+        "yearFounded": "Tacos",
+        "currentPopulation": "722 Osborne St #722, Winnipeg, MB R3L 2C2",
+        "averageRainfall": "M-S 10:00 am - 7:00 pm",
+        "Contact": "204-415-5192",
+        "Activity": "Taqueria",
+        "Website": "https://bmcmarket.com/", 
+        "events": [
+          "New Taco",
+          "We are Open"
+        ]
+      },
+      {
         "name": "The Forks",
         "photo": "theforks.jpg",
         "motto": "Located at the junction of the Red and Assiniboine rivers.",
