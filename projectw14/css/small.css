@@ -224,9 +224,9 @@ footer {
     color: #FFFFFF;
     text-align: center;
     padding: 1rem 2%;
-    background: #FFFFFF;  /* fallback for old browsers */
-    background:  #110066;  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to bottom, #110066, #FFFFFF, ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */        
+    background: #FFFFFF;   
+    background:  #110066;   
+    background: linear-gradient(to bottom, #110066, #FFFFFF, );        
 } 
 
 .contentbox { 
@@ -306,7 +306,7 @@ img {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
         background: #110066; 
-        margin: 10;
+        margin: 10px;
         padding: 10rem 0;   
         max-width: 100%;
         width: auto;
