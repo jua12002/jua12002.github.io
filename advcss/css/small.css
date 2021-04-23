@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
+
+/* LARGE - 64em is also 1028px when basefont is 16px */
+@media only screen and (min-width:769px) { 
+  
+  /*navigation here */
+  header {
+    flex-direction: column;
+    text-align: right;
+    margin-right: 20px;
+    background-color:#6495ED;
+    position:fixed;
+    left: 0;
+    top: 0px;
+    width: 15%;
+    padding: 30px 60px;
+    height: calc(100% - 60px);
+    overflow-y: auto; 
+  }
+
+  nav ul {margin: 0; padding: 0;}
+  nav ul {list-style-type: none;}
+  nav ul li.active {background-color: #DEB887;
+  }
+  
+  nav a {
+      color: white;
+      font-size: 18px;
+      line-height: 80px;
+      width: max-content;
+      text-decoration: none;
+  }
+  
+  nav a:hover {
+    position: relative;
+    background: #DEB887;
+    color: white ;
+    text-decoration: underline;
+  }
+
+ main {
+  margin-left:25%;
+  padding:1px 16px;
+  height:1000px;
+ } 
+    
+  p {
+    text-align-last: center;
+  }
+
+  .post-date {
+    text-align: left;
+    padding: 5px 5px; 
+    color: rgb(184, 183, 183);
+  }
+
+
+} 
+
+
+    /* SMALL SCREENS*/
+ 
+@media (max-width: 768px) {
+  header, nav, main, footer {
+      max-width: 64rem;
+      margin: auto;  
+  }
+
+/* navigation here */
+nav ul {margin: 0; padding: 0;}
+nav ul {list-style-type: none;}
+nav ul li.active {background-color: #DEB887;
+  
+}
+
+nav a {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    text-align: right;
+    text-decoration: none;  
+}
+
+nav a:hover {
+  position: relative;
+  background: #DEB887;
+  color: white ;
+  text-decoration: underline;
+}
+
+body{
+  display: grid;
+  grid-template-columns: repeat(2, 400px);
+  justify-content: left;
+  }
+
+}  
+
+header {background-color: #6495ED;
+color: white}
+
+body {
+font-family: 'Helvetica', Arial, sans-serif;
+background-color: #FAEBD7;
+color: black;
+}
+
+  h2 a { 
+  font-family: 'Lora', serif; 
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+  text-align: center;
+  }
+
+  h2 a:hover { color: #6495ED;
+    text-decoration: underline;
+  } 
+
+  h2.active {background-color: #6495ED;
+  }
+
+  h1 a {
+    text-align: right;
+    color: white;
+    text-decoration: none;
+    font-family: 'Lora', serif;
+  }
+  
+  p a { 
+    font-family: 'Lora', serif; 
+    color: #6495ED;
+    text-decoration: none;
+    cursor: pointer;
+    text-align: center;
+    }
+  
+    p a:hover {
+      color: #DEB887;
+      text-decoration: underline;
+    } 
+  
+    p.active {background-color: #DEB887;
+    }
+
+  article {
+    width: 100%;
+    text-align: center;
+    margin: 2rem auto;
+    background-color: white;
+    display: flex;
+    flex-wrap: wrap;
+    box-shadow: 0 0 10px rgb(148, 146, 146);
+  }
+
+  p {
+    width: 100%;
+    text-align:center; 
+  }
+ 
+ /* end */
